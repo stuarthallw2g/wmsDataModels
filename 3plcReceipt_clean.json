@@ -1,0 +1,199 @@
+{
+    "readOnly": {
+        "receiverId": 1,
+        "receiverType": 0, 
+        "deferNotification": true, 
+        "receiptAdviceSendInfo": {
+            "markInfo": {  
+                "candidate": 1,
+                "channelIdentifier": {
+                    "name": "str",
+                    "id": 2
+                },
+                "transformIds": "str"
+            },
+            "sentInfo": { 
+                "sent": true,
+                "date": "2016-12-25T23:00:00"
+            }
+        },
+        "customerIdentifier": {
+            "externalId": "str",
+            "name": "str",
+            "id": 3
+        },
+        "facilityIdentifier": {
+            "name": "str",
+            "id": 2
+        },
+        "warehouseTransactionSourceType": 0, 
+                                            
+        "transactionEntryType": 0, 
+                                    
+        "importChannelIdentifier": { 
+            "name": "str",
+            "id": 2
+        },
+        "creationDate": "2016-12-25T23:00:00",
+        "createdByIdentifier": {
+            "name": "str",
+            "id": 2
+        },
+        "lastModifiedDate": "2016-12-25T23:00:00",
+        "lastModifiedByIdentifier": {
+            "name": "str",
+            "id": 2
+        },
+        "status": 0 
+                        
+    },
+    "referenceNum": "str",
+    "poNum": "str",
+    "externalId": "str", 
+    "receiptAdviceNumber": "str", 
+    "arrivalDate": "2016-12-25T23:00:00",
+    "expectedDate": "2016-12-25T23:00:00",
+    "notes": "str",
+    "billing": { 
+        "billingCharges": [
+            {
+                "chargeType": 1, 
+                                   
+                "subtotal": 1.0,
+                "details": [
+                    {
+                        "warehouseTransactionPriceCalcId": 1,
+                        "numUnits": 2.0,
+                        "chargeLabel": "str",
+                        "unitDescription": "str",
+                        "chargePerUnit": 5.0,
+                        "glAcctNum": "str",
+                        "sku": "str",
+                        "ptItem": "str",
+                        "ptItemDescription": "str",
+                        "ptArAcct": "str",
+                        "systemGenerated": true,
+                        "taxCode": "str" 
+                    }
+                ]
+            }
+        ]
+    },
+    "scacCode": "str",
+    "carrier": "str",
+    "billOfLading": "str",
+    "doorNumber": "str",
+    "trackingNumber": "str",
+    "trailerNumber": "str",
+    "sealNumber": "str",
+    "capacityTypeIdentifier": { 
+        "name": "str",
+        "id": 2
+    },
+    "numUnits1": 1.0, 
+    "unit1Identifier": { 
+        "name": "str",
+        "id": 2
+    },
+    "numUnits2": 1.0, 
+    "unit2Identifier": { 
+        "name": "str",
+        "id": 2
+    },
+    "totalWeight": 1.0,
+    "totalVolume": 1.0,
+    "savedElements": [ 
+        {
+            "name": "str",
+            "value": "str" 
+        }
+    ],
+    "_embedded": {
+        "http://api.3plCentral.com/rels/inventory/receiveritem": [
+            {
+                "readOnly": { 
+                    "receiveItemId": 1,
+                    "fullyShippedDate": "2016-12-25T23:00:00",
+                    "unitIdentifier": { 
+                        "name": "str",
+                        "id": 2
+                    },
+                    "secondaryUnitIdentifier": { 
+                        "name": "str",
+                        "id": 2
+                    },
+                    "expectedQty": 1.0,
+                    "inventoryLevels": { 
+                        "onHand": 1.0, 
+                        "available": 2.0, 
+                        "secondaryAvailable": 1.0
+                    },
+                    "onHoldDate": "2016-12-25T23:00:00", 
+                    "onHoldUserIdentifier": { 
+                        "name": "str",
+                        "id": 2
+                    },
+                    "facilityIdentifier": { 
+                        "name": "str",
+                        "id": 2
+                    },
+                    "rowVersion": "str"
+                },
+                "itemIdentifier": {
+                    "sku": "str",
+                    "id": 2
+                },
+                "qualifier": "str", 
+                "externalId": "str", 
+                "qty": 1.0, 
+                "secondaryQty": 1.0, 
+                "lotNumber": "str", 
+                "serialNumber": "str", 
+                "expirationDate": "2016-12-25T23:00:00",
+                "cost": 1.0, 
+                "supplierIdentifier": { 
+                    "name": "str",
+                    "id": 2
+                },
+                "locationInfo": {
+                    "locationId": 1,
+                    "display": "str",
+                    "rawField1": "str",
+                    "rawField2": "str",
+                    "rawField3": "str",
+                    "rawField4": "str"
+                },
+                "palletInfo": { 
+                    "palletId": 1, 
+                    "label": "str", 
+                    "palletTypeIdentifier": { 
+                        "name": "str",
+                        "id": 2
+                    },
+                    "metric": { 
+                        "length": 1.0,
+                        "width": 1.0,
+                        "height": 1.0,
+                        "weight": 1.0
+                    },
+                    "imperial": { 
+                        "length": 1.0,
+                        "width": 1.0,
+                        "height": 1.0,
+                        "weight": 1.0
+                    }
+                },
+                "weightImperial": 1.0, 
+                "weightMetric": 1.0, 
+                "onHold": true, 
+                "onHoldReason": "str", 
+                "savedElements": [
+                    {
+                        "name": "str", 
+                        "value": "str" 
+                    }
+                ]
+            }
+        ]
+    }
+}

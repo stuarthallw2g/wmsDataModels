@@ -1,0 +1,148 @@
+"readOnly": {
+        "adjustmentId": 1,
+        "subType": 0, 
+        "relatedAdjustmentId": 1,
+        "processDate": "2016-12-25T23:00:00", 
+        "referenceNum": "str",
+        "customerIdentifier": {
+            "externalId": "str",
+            "name": "str",
+            "id": 3
+        },
+        "facilityIdentifier": {
+            "name": "str",
+            "id": 2
+        },
+        "warehouseTransactionSourceType": 0, 
+        "transactionEntryType": 0, 
+        "creationDate": "2016-12-25T23:00:00",
+        "createdByIdentifier": {
+            "name": "str",
+            "id": 2
+        },
+        "lastModifiedDate": "2016-12-25T23:00:00",
+        "lastModifiedByIdentifier": {
+            "name": "str",
+            "id": 2
+        },
+        "status": 0  
+    },
+    "billing": {
+        "billingCharges": [
+            {
+                "chargeType": 1, 
+                "subtotal": 1.0,
+                "details": [
+                    {
+                        "warehouseTransactionPriceCalcId": 1,
+                        "numUnits": 2.0,
+                        "chargeLabel": "str",
+                        "unitDescription": "str",
+                        "chargePerUnit": 5.0,
+                        "glAcctNum": "str",
+                        "sku": "str",
+                        "ptItem": "str",
+                        "ptItemDescription": "str",
+                        "ptArAcct": "str",
+                        "systemGenerated": true
+                
+                    }
+                ]
+            }
+        ]
+    },
+    "savedElements": [ 
+        {
+            "name": "str",
+            "value": "str"
+        }
+    ],
+    "_embedded": {
+        "item": [
+            {
+                "qty": 1.0, 
+                "readOnly": {
+                    "receiveItemId": 1, 
+                    "fullyShippedDate": "2016-12-25T23:00:00",
+                    "unitIdentifier": { 
+                        "name": "str",
+                        "id": 2
+                    },
+                    "secondaryUnitIdentifier": {
+                        "name": "str",
+                        "id": 2
+                    },
+                    "expectedQty": 1.0, 
+                    "inventoryLevels": { 
+                        "onHand": 1.0, 
+                        "available": 2.0, 
+                        "secondaryAvailable": 1.0
+                    },
+                    "onHoldDate": "2016-12-25T23:00:00", 
+                    "onHoldUserIdentifier": { 
+                        "name": "str",
+                        "id": 2
+                    },
+                    "facilityIdentifier": {
+                        "name": "str",
+                        "id": 2
+                    },
+                    "rowVersion": "str"
+                },
+                "itemIdentifier": {
+                    "sku": "str",
+                    "id": 2
+                },
+                "qualifier": "str", 
+                "externalId": "str", 
+                "secondaryQty": 1.0, 
+                "lotNumber": "str", 
+                "serialNumber": "str", 
+                "expirationDate": "2016-12-25T23:00:00", 
+                "cost": 1.0, 
+                "supplierIdentifier": { 
+                    "name": "str",
+                    "id": 2
+                },
+                "locationInfo": { 
+                    "locationId": 1, 
+                    "display": "str", 
+                    "rawField1": "str", 
+                    "rawField2": "str",
+                    "rawField3": "str",
+                    "rawField4": "str"
+                },
+                "palletInfo": { 
+                    "palletId": 1,
+                    "label": "str", 
+                    "palletTypeIdentifier": { 
+                        "name": "str",
+                        "id": 2
+                    },
+                    "metric": {
+                        "length": 1.0,
+                        "width": 1.0,
+                        "height": 1.0,
+                        "weight": 1.0
+                    },
+                    "imperial": {
+                        "length": 1.0,
+                        "width": 1.0,
+                        "height": 1.0,
+                        "weight": 1.0
+                    }
+                },
+                "weightImperial": 1.0,
+                "weightMetric": 1.0,
+                "onHold": true, 
+                "onHoldReason": "str", 
+                "savedElements": [ 
+                    {
+                        "name": "str",
+                        "value": "str"
+                    }
+                ]
+            }
+        ]
+    }
+}

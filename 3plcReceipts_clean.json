@@ -2,9 +2,9 @@
     "readOnly": {
         "receiverId": 1,
         "receiverType": 0, 
-        "deferNotification": true, // True means the receipt will be created in an open "incomplete" state, where notification is deferred until receiver is completed; False means the receipt will be created in a "complete" state;
+        "deferNotification": true, 
         "receiptAdviceSendInfo": {
-            "markInfo": { // Used by the system to send a receipt advice
+            "markInfo": {  
                 "candidate": 1,
                 "channelIdentifier": {
                     "name": "str",
@@ -12,7 +12,7 @@
                 },
                 "transformIds": "str"
             },
-            "sentInfo": { //Indicates if and when a receipt advice was sent
+            "sentInfo": { 
                 "sent": true,
                 "date": "2016-12-25T23:00:00"
             }
@@ -26,11 +26,11 @@
             "name": "str",
             "id": 2
         },
-        "warehouseTransactionSourceType": 0, //How the transaction entered the system.
+        "warehouseTransactionSourceType": 0, 
                                             
-        "transactionEntryType": 0, // The agent creating the transaction
+        "transactionEntryType": 0, 
                                     
-        "importChannelIdentifier": { //	Reference to the channel trhough which this receipt was imported
+        "importChannelIdentifier": { 
             "name": "str",
             "id": 2
         },
@@ -44,20 +44,20 @@
             "name": "str",
             "id": 2
         },
-        "status": 0 // Receiver Status Types: 
+        "status": 0 
                         
     },
     "referenceNum": "str",
     "poNum": "str",
-    "externalId": "str", // connection of this receiver to the same receiver on some other system
-    "receiptAdviceNumber": "str", // Number of document from which this receiver was created
-    "arrivalDate": "2016-12-25T23:00:00", // maps to ProcessDate (close date); at confirm time this can't be in the future
+    "externalId": "str", 
+    "receiptAdviceNumber": "str", 
+    "arrivalDate": "2016-12-25T23:00:00",
     "expectedDate": "2016-12-25T23:00:00",
     "notes": "str",
-    "billing": { // billing recorded for the receipt.
+    "billing": { 
         "billingCharges": [
             {
-                "chargeType": 1, // Charge types:
+                "chargeType": 1, 
                                    
                 "subtotal": 1.0,
                 "details": [
@@ -73,7 +73,7 @@
                         "ptItemDescription": "str",
                         "ptArAcct": "str",
                         "systemGenerated": true,
-                        "taxCode": "str" // Empty on GET. If present on POST or PUT, may create or update a "matching" PriceCalcRate record to be used while generating invoices
+                        "taxCode": "str" 
                     }
                 ]
             }
@@ -86,54 +86,54 @@
     "trackingNumber": "str",
     "trailerNumber": "str",
     "sealNumber": "str",
-    "capacityTypeIdentifier": { //Size of the trailer or container which contained the goods
+    "capacityTypeIdentifier": { 
         "name": "str",
         "id": 2
     },
-    "numUnits1": 1.0, //Overridden total Number of Packaged Units received.
-    "unit1Identifier": { //Overridden total receipt units, unit of measure
+    "numUnits1": 1.0, 
+    "unit1Identifier": { 
         "name": "str",
         "id": 2
     },
-    "numUnits2": 1.0, //Overriden total receipt Number of Palletized
-    "unit2Identifier": { // Overriden numUnit2 unit of measure (UoM)
+    "numUnits2": 1.0, 
+    "unit2Identifier": { 
         "name": "str",
         "id": 2
     },
     "totalWeight": 1.0,
     "totalVolume": 1.0,
-    "savedElements": [ //custom fields at the receipt header level.
+    "savedElements": [ 
         {
-            "name": "str", // custom field name
-            "value": "str" // custom field value
+            "name": "str",
+            "value": "str" 
         }
     ],
     "_embedded": {
         "http://api.3plCentral.com/rels/inventory/receiveritem": [
             {
-                "readOnly": { // Provided when GETting, ignored when POSTing new or PUTting existing single receive item, required when PUTting list of receive items
+                "readOnly": { 
                     "receiveItemId": 1,
                     "fullyShippedDate": "2016-12-25T23:00:00",
-                    "unitIdentifier": { //For convenience, referenced item's primary inventory unit
+                    "unitIdentifier": { 
                         "name": "str",
                         "id": 2
                     },
-                    "secondaryUnitIdentifier": { // For convenience, referenced item's secondary inventory unit if defined
+                    "secondaryUnitIdentifier": { 
                         "name": "str",
                         "id": 2
                     },
                     "expectedQty": 1.0,
-                    "inventoryLevels": { // From StockStatus
-                        "onHand": 1.0, // Inventory in the warehouse
-                        "available": 2.0, // Inventory in the warehouse but not allocated to any order
+                    "inventoryLevels": { 
+                        "onHand": 1.0, 
+                        "available": 2.0, 
                         "secondaryAvailable": 1.0
                     },
-                    "onHoldDate": "2016-12-25T23:00:00", // The date the receive item was most recently placed on hold
-                    "onHoldUserIdentifier": { // The user who most recently place the receive item on hold
+                    "onHoldDate": "2016-12-25T23:00:00", 
+                    "onHoldUserIdentifier": { 
                         "name": "str",
                         "id": 2
                     },
-                    "facilityIdentifier": { // The facility where the receive item was received
+                    "facilityIdentifier": { 
                         "name": "str",
                         "id": 2
                     },
@@ -143,15 +143,15 @@
                     "sku": "str",
                     "id": 2
                 },
-                "qualifier": "str", // Item qualifer; null is interpreted same as empty string
-                "externalId": "str", // Connection of this receive item to the same receive item on some other system
-                "qty": 1.0, // Primary inventory quantity received; if not specified, must specify SecondaryQty from which Qty will be calculated
-                "secondaryQty": 1.0, // If not specified and Item.Options.SecondaryUnit defined will be calculated from Qty; error if specified and Item.Options.SecondaryUnit null
-                "lotNumber": "str", // Item must be enabled for lot numbers to use this field
-                "serialNumber": "str", // Item must be enabled for serial numbers to use this field
-                "expirationDate": "2016-12-25T23:00:00", // Item must be enabled for expiration dates to use this field
-                "cost": 1.0, // Item must be enabled for cost to use this field
-                "supplierIdentifier": { // Customer must be enabled for suppliers to use this field
+                "qualifier": "str", 
+                "externalId": "str", 
+                "qty": 1.0, 
+                "secondaryQty": 1.0, 
+                "lotNumber": "str", 
+                "serialNumber": "str", 
+                "expirationDate": "2016-12-25T23:00:00",
+                "cost": 1.0, 
+                "supplierIdentifier": { 
                     "name": "str",
                     "id": 2
                 },
@@ -163,34 +163,34 @@
                     "rawField3": "str",
                     "rawField4": "str"
                 },
-                "palletInfo": { // in GETs: the movable unit;Customer must be enabled for movable units to use this field
-                    "palletId": 1, //for identifying: system auto generated at time of POSTs or PUTs
-                    "label": "str", //Pallet(MU) label name
-                    "palletTypeIdentifier": { //Pallet(MU) type
+                "palletInfo": { 
+                    "palletId": 1, 
+                    "label": "str", 
+                    "palletTypeIdentifier": { 
                         "name": "str",
                         "id": 2
                     },
-                    "metric": { // optional when creating;if only Metric specified, Imperial is calculated
+                    "metric": { 
                         "length": 1.0,
                         "width": 1.0,
                         "height": 1.0,
                         "weight": 1.0
                     },
-                    "imperial": { // optional when creating;if only Imperial specified, Metric is calculated
+                    "imperial": { 
                         "length": 1.0,
                         "width": 1.0,
                         "height": 1.0,
                         "weight": 1.0
                     }
                 },
-                "weightImperial": 1.0, // total weight of receive item, imperial; if specified and metric not specified, business logic computes metric
-                "weightMetric": 1.0, //total weight of receive item, metric; if specified and imperial not specified, business logic computes imperial; see WeightImperial for further explanation
-                "onHold": true, //	If true, this receive item is not available for allocation
-                "onHoldReason": "str", //the reason the receive item was placed on hold
-                "savedElements": [ //custom fields at the receive line item level
+                "weightImperial": 1.0, 
+                "weightMetric": 1.0, 
+                "onHold": true, 
+                "onHoldReason": "str", 
+                "savedElements": [
                     {
-                        "name": "str", // custom field name
-                        "value": "str" // custom field value
+                        "name": "str", 
+                        "value": "str" 
                     }
                 ]
             }

@@ -1,0 +1,59 @@
+{
+  "totalResults": 117,
+  "_links": {
+    "self": {
+      "href": "/inventory/stockdetails?customerid=2&facilityid=1&pgsiz=100&pgnum=1"
+    },
+    "next": {
+      "href": "/inventory/stockdetails?customerid=2&facilityid=1&pgsiz=100&pgnum=2"
+    },
+    "item": {
+      "href": ""
+    }
+  },
+  "_embedded": {
+    "item": [
+      {
+        "receiveItemId": 3,
+        "itemIdentifier": {
+          "sku": "SKU 6-test",
+          "id": 2
+        },
+        "description": "PL-BH Garcinia Cambogia",
+        "upc": "23456-test",
+        "qualifier": "",
+        "received": 1582,
+        "available": 16,
+        "isOnHold": false,
+        "quarantined": false,
+        "onHand": 221,
+        "lotNumber": "",
+        "serialNumber": "",
+        "locationIdentifier": {
+          "nameKey": {
+            "facilityIdentifier": {
+              "name": "Main",
+              "id": 1
+            },
+            "name": "SL-1"
+          },
+          "id": 1
+        },
+        "inventoryUnitOfMeasureIdentifier": {
+          "name": "Each",
+          "id": 1
+        },
+        "receiverId": 503,
+        "receivedDate": "2014-01-17T11:14:00",
+        "referenceNum": "HS 24824",
+        "poNum": "",
+        "trailerNumber": "",
+        "_links": {
+          "self": {
+            "href": null
+          }
+        }
+      }
+    ]
+  }
+}

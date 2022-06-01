@@ -1,0 +1,176 @@
+"readOnly": {
+        "adjustmentId": 1,
+        "subType": 0, //subType values:
+                        - 0: None	
+                        - 1: TransferTo	corresponds to a receiver-like adjustment, hence same numeric value as WarehouseTransactionType Inbound
+                        - 2: TransferFrom	corresponds to an order-like adjustment, hence same numeric value as WarehouseTransactionType Order
+        "relatedAdjustmentId": 1,
+        "processDate": "2016-12-25T23:00:00", //where the processDate is the equivalent of the confirmed (closed) date
+        "referenceNum": "str",
+        "customerIdentifier": {
+            "externalId": "str",
+            "name": "str",
+            "id": 3
+        },
+        "facilityIdentifier": {
+            "name": "str",
+            "id": 2
+        },
+        "warehouseTransactionSourceType": 0, // how the transaction entered the system, Types:
+                                                - 0: Unknown
+                                                - 1: UiManual
+                                                - 2: UiImport
+                                                - 3: AutomatedImport
+                                                - 4: ExternalSoapApi
+                                                - 5: QuickBooksSoapApi
+                                                - 6: AutomatedSystemCharge
+                                                - 7: RestApi
+        "transactionEntryType": 0, // the agent creating the transaction
+                                    - 0: unknown
+                                    - 1: ManualWarehouseUser
+                                    - 2: ManualCustomerUser
+                                    - 3: Ftp
+                                    - 4: Api
+
+        "creationDate": "2016-12-25T23:00:00",
+        "createdByIdentifier": {
+            "name": "str",
+            "id": 2
+        },
+        "lastModifiedDate": "2016-12-25T23:00:00",
+        "lastModifiedByIdentifier": {
+            "name": "str",
+            "id": 2
+        },
+        "status": 0 // Status types:
+                        - 0: Open	Has not yet been confirmed
+                        - 1: Closed	 Has been confirmed
+                        - 2: Canceled	Has been canceled
+    },
+    "billing": {
+        "billingCharges": [
+            {
+                "chargeType": 1, // Charge Types:
+                                    - 1: Handling
+                                    - 2: Storage
+                                    - 3: PrepaidFreight
+                                    - 4: ThirdPartyFreight
+                                    - 5: SpecialCharges
+                                    - 6: Materials
+                                    - 7: AutoCalcStorage	used internally for sys-gen'ed charges
+                                    - 8: AutoCalcHandling	used internally for sys-gen'ed charges
+                "subtotal": 1.0,
+                "details": [
+                    {
+                        "warehouseTransactionPriceCalcId": 1,
+                        "numUnits": 2.0,
+                        "chargeLabel": "str",
+                        "unitDescription": "str",
+                        "chargePerUnit": 5.0,
+                        "glAcctNum": "str",
+                        "sku": "str",
+                        "ptItem": "str",
+                        "ptItemDescription": "str",
+                        "ptArAcct": "str",
+                        "systemGenerated": true
+                
+                    }
+                ]
+            }
+        ]
+    },
+    "savedElements": [ 
+        {
+            "name": "str",
+            "value": "str"
+        }
+    ],
+    "_embedded": {
+        "item": [
+            {
+                "qty": 1.0, // the Qty by which inventory was increased or decreased
+                "readOnly": { // provided when GETting, ignored when POSTing new or PUTting existing single receive item, required when PUTting list of receive items
+                    "receiveItemId": 1, //when PUTting a receiver or a receive item list, zero to create a new receiver item, otherwise it identifies an existing receive item
+                    "fullyShippedDate": "2016-12-25T23:00:00",
+                    "unitIdentifier": { // for convenience, referenced item's primary inventory unit
+                        "name": "str",
+                        "id": 2
+                    },
+                    "secondaryUnitIdentifier": { // for convenience, referenced item's secondary inventory unit if defined
+                        "name": "str",
+                        "id": 2
+                    },
+                    "expectedQty": 1.0, // when a ReceiveAgainst receiver is converted to a normal receiver, ExpectedQty is automatically copied from PrimaryQty; otherwise the ExpectedQty is null
+                    "inventoryLevels": { // from StockStatus
+                        "onHand": 1.0, // in the warehouse
+                        "available": 2.0, //in the warehouse but not allocated to any order
+                        "secondaryAvailable": 1.0
+                    },
+                    "onHoldDate": "2016-12-25T23:00:00", // the date the receive item was most recently placed on hold
+                    "onHoldUserIdentifier": { // the user who most recently place the receive item on hold
+                        "name": "str",
+                        "id": 2
+                    },
+                    "facilityIdentifier": {
+                        "name": "str",
+                        "id": 2
+                    },
+                    "rowVersion": "str"
+                },
+                "itemIdentifier": {
+                    "sku": "str",
+                    "id": 2
+                },
+                "qualifier": "str", // item qualifer; null is interpreted same as empty string
+                "externalId": "str", // connection of this receive item to the same receive item on some other system
+                "secondaryQty": 1.0, // if not specified and Item.Options.SecondaryUnit defined will be calculated from Qty; error if specified and Item.Options.SecondaryUnit null
+                "lotNumber": "str", // item must be enabled for lot numbers to use this field
+                "serialNumber": "str", // item must be enabled for serial numbers to use this field
+                "expirationDate": "2016-12-25T23:00:00", // item must be enabled for expiration dates to use this field
+                "cost": 1.0, // item must be enabled for cost to use this field
+                "supplierIdentifier": { // 	customer must be enabled for suppliers to use this field
+                    "name": "str",
+                    "id": 2
+                },
+                "locationInfo": { // In GETs: the location; customer must be enabled for locations to use this field
+                    "locationId": 1, // for identifying: if known specify only this; other fields are ignored
+                    "display": "str", // specify either Display or RawField1..n but not both
+                    "rawField1": "str", // 	"Raw" means as the user envisions it without the internal magnitude notation applied for sorting
+                    "rawField2": "str",
+                    "rawField3": "str",
+                    "rawField4": "str"
+                },
+                "palletInfo": { // in GETs: the movable unit;customer must be enabled for movable units to use this field
+                    "palletId": 1,
+                    "label": "str", // Pallet(MU) label name
+                    "palletTypeIdentifier": { // Movable Unit Type
+                        "name": "str",
+                        "id": 2
+                    },
+                    "metric": {
+                        "length": 1.0,
+                        "width": 1.0,
+                        "height": 1.0,
+                        "weight": 1.0
+                    },
+                    "imperial": {
+                        "length": 1.0,
+                        "width": 1.0,
+                        "height": 1.0,
+                        "weight": 1.0
+                    }
+                },
+                "weightImperial": 1.0,
+                "weightMetric": 1.0,
+                "onHold": true, // If true, this receive item is not available for allocation
+                "onHoldReason": "str", // the reason the receive item was placed on hold; required if OnHold is true
+                "savedElements": [ // Custom field at the line item level
+                    {
+                        "name": "str",
+                        "value": "str"
+                    }
+                ]
+            }
+        ]
+    }
+}

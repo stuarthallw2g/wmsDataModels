@@ -6,7 +6,7 @@
         "id": 1
     },
     "transactionEntryType": 4,
-    "isReturn": "true, Required; Setting value to false or removing this field will result to a Receiver transaction type. true; Adds SavedElement to flag receiver as a return."
+    "isReturn": "true, Required; Setting value to false or removing this field will result to a Receiver transaction type. true; Adds SavedElement to flag receiver as a return.",
     "deferNotification": "false, Setting value to true will deffer the email notification and mark the receiver as open instead of complete.",
     "referenceNum": "Return-1",
     "receiptAdviceNumber": "RMA-A",

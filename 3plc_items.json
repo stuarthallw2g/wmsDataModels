@@ -1,0 +1,151 @@
+{
+    "sku": "str", //Required
+    "upc": "str",
+    "description": "str", //Required
+    "description2": "str",
+    "inventoryCategory": "str",
+    "classificationIdentifier": {
+        "name": "str",
+        "id": 2
+    },
+    "nmfc": "str",
+    "cost": 1.0,
+    "price": 1.0,
+    "temperature": 1.0,
+    "accountRef": "str",
+    "countryOfManufacture": "str",
+    "harmonizedCode": "str",
+    "qualifierRenamers": [
+        {
+            "qualifier": "str",
+            "renames": "str"
+        }
+    ],
+    "kit": {
+        "materialNotes": "str",
+        "components": [
+            {
+                "itemIdentifier": {
+                    "sku": "str",
+                    "id": 2
+                },
+                "qualifier": "str",
+                "qty": 1.0,
+                "nonSkuMaterial": "str"
+            }
+        ]
+    },
+    "options": { //Required node
+        "inventoryUnit": { //Required node
+            "unitIdentifier": { //Required; Can be specified by "Name" and/or "id"
+                "name": "str",
+                "id": 2
+            },
+            "minimumStock": 1.0,
+            "maximumStock": 1.0,
+            "reorderQuantity": 1.0,
+            "inventoryMethod": 1
+        },
+        "secondaryUnit": {
+            "inventoryAlso": true,
+            "unitIdentifier": {
+                "name": "str",
+                "id": 2
+            },
+            "inventoryUnitsPerUnit": 2.0
+        },
+        "packageUnit": {
+            "imperial": {
+                "netWeight": 1.0,
+                "length": 1.0,
+                "width": 1.0,
+                "height": 1.0,
+                "weight": 1.0
+            },
+            "metric": {
+                "netWeight": 1.0,
+                "length": 1.0,
+                "width": 1.0,
+                "height": 1.0,
+                "weight": 1.0
+            },
+            "upc": "str",
+            "unitIdentifier": {
+                "name": "str",
+                "id": 2
+            },
+            "inventoryUnitsPerUnit": 2.0
+        },
+        "trackBys": {
+            "trackLotNumber": 0,
+            "trackSerialNumber": 0,
+            "trackExpirationDate": 0,
+            "trackCost": 0,
+            "outboundMobileSerialization": 0,
+            "autoHoldExpirationDaysThreshold": 1,
+            "isPickLotNumberRequired": true,
+            "isPickSerialNumberRequired": true,
+            "isPickExpirationDateRequired": true
+        },
+        "pallets": {
+            "typeIdentifier": {
+                "name": "str",
+                "id": 2
+            },
+            "tie": 1.0,
+            "high": 1.0,
+            "qty": 1.0,
+            "imperial": {
+                "length": 1.0,
+                "width": 1.0,
+                "height": 1.0,
+                "weight": 1.0
+            },
+            "metric": {
+                "length": 1.0,
+                "width": 1.0,
+                "height": 1.0,
+                "weight": 1.0
+            },
+            "upc": "str"
+        },
+        "hazMat": {
+            "isHazMat": true,
+            "id": "str",
+            "shippingName": "str",
+            "hazardClass": "str",
+            "packingGroup": "str",
+            "flashPoint": "str",
+            "labelCode": "str",
+            "flag": "str"
+        },
+        "directedPutAway": {
+            "locationZones": "str",
+            "palletLocationZones": "str",
+            "overAllocLocationZones": "str",
+            "preferredLocationIdentifier": {
+                "nameKey": {
+                    "facilityIdentifier": {
+                        "name": "str",
+                        "id": 2
+                    },
+                    "name": "str"
+                },
+                "id": 1
+            },
+            "forceIntoPreferredLocation": true,
+            "allowMixedItemStorage": true,
+            "allowMixedLotStorage": true,
+            "mixedExpirationDaysThreshold": 1
+        },
+        "daysBetweenCounts": 1,
+        "autoHoldOnReceive": true
+    },
+    "_embedded": {
+        "item": [
+            {
+                "qualifier": "str"
+            }
+        ]
+    }
+}

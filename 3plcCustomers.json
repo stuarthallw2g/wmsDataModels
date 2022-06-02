@@ -1,0 +1,65 @@
+{
+  "companyInfo": {
+    "companyName": "One Great Company",
+    "name": "",
+    "address1": "1000000 River Road",
+    "address2": "",
+    "city": "Brunswick",
+    "state": "ME",
+    "zip": "04011",
+    "country": "",
+    "phoneNumber": "",
+    "fax": "",
+    "emailAddress": ""
+  },
+  "primaryContact": {
+    "companyName": "One Great Company",
+    "name": "Joe Snuffy",
+    "title": "Executive Vice President",
+    "address1": "1000000 River Road",
+    "address2": "",
+    "city": "Brunswick",
+    "state": "ME",
+    "zip": "04011",
+    "phoneNumber": "",
+    "fax": "",
+    "emailAddress": "",
+    "country": ""
+  },
+  "facilities": [
+    {
+      "id": 1
+    }
+  ],
+  "options": {
+    "receiving": {
+      "purchaseOrders": false,
+      "createMultipleMus": true,
+      "receiveAgainstAsns": 0,
+      "suggestedPutAwayEnabled": true,
+      "requireScacForAsn": false,
+      "autoFillTrackBys": false,
+      "trackLocation": 1,
+      "trackPallets": 1,
+      "trackSupplier": 0
+    },
+    "storage": {
+      "customerautorates": true,
+      "accountcustomername": "Customer Auto Rates",
+      "accountingCustomerName": "Customer Auto Rates"
+    },
+    "otherSystemBehaviors": {
+      "flexFields": true,
+      "requireAttachedDocuments": false
+    },
+    "userInterface": {
+      "hideLocationSelectedList": false,
+      "excludeLocationsWithZeroInventory": false,
+      "autoCheckAutoReallocateOnReceive": true,
+      "transactionConfirmInvoiceCreateDefault": 0,
+      "mobileReceiptQuantityOneDefault": true,
+      "reallocateAtPickTime": true,
+      "dashboard": false
+    }
+  }
+}

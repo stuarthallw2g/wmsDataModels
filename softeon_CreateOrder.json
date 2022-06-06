@@ -1,0 +1,108 @@
+{
+  "data": {
+    "orderLines": [
+      {
+        "skuId": "string",
+        "quantity": 0,
+        "quantityMeasure": "EA",
+        "customerLineNumber": "string",
+        "customerSku": "string",
+        "giftMessage": "string",
+        "notes": "string",
+        "lineType": "S",
+        "amount": 0,
+        "giftCardInfo": {
+          "amount": 0,
+          "code": "string",
+          "detail": "string",
+          "type": "string"
+        }
+      }
+    ],
+    "customerOrderNumber": "string",
+    "orderCreatedDate": "2019-08-24T14:15:22Z",
+    "requestedBuildingId": "strin",
+    "shipTo": {
+      "name": "string",
+      "address1": "string",
+      "address2": "string",
+      "address3": "string",
+      "city": "string",
+      "state": "strin",
+      "country": "strin",
+      "postalCode": "string",
+      "email": "foo@bar.com,fish@sea.net",
+      "phoneNumber": "string",
+      "faxNumber": "string",
+      "attentionTo": "string"
+    },
+    "notes": "string",
+    "carrierId": "UPS",
+    "shippingSpeed": "1D",
+    "deliveryInstructions1": "string",
+    "deliveryInstructions2": "string",
+    "buyerOrderNumber": "string",
+    "fulfillFlag": true,
+    "fillKillIndicator": "1",
+    "customerOrderType": "HL",
+    "billTo": {
+      "name": "string",
+      "address1": "string",
+      "address2": "string",
+      "address3": "string",
+      "city": "string",
+      "state": "strin",
+      "country": "strin",
+      "postalCode": "string",
+      "email": "foo@bar.com,fish@sea.net",
+      "phoneNumber": "string",
+      "faxNumber": "string",
+      "attentionTo": "string"
+    },
+    "giftMessage": "string",
+    "orderAmount": 0,
+    "isSignatureRequired": true,
+    "isInsuranceRequired": true,
+    "orderDropDate": "2019-08-24",
+    "customerDates": {
+      "requestedDeliveryDate": "2019-08-24",
+      "requestedShipDate": "2019-08-24",
+      "deliveryStartDate": "2019-08-24",
+      "deliveryEndDate": "2019-08-24",
+      "doNotShipBefore": "2019-08-24",
+      "doNotShipAfter": "2019-08-24",
+      "cancelAfter": "2019-08-24",
+      "cancelIfNotDeliveredBy": "2019-08-24"
+    },
+    "salesChannelOrderInfo": {
+      "salesChannelName": "string",
+      "orderNumber": "string",
+      "purchaseDate": "2019-08-24",
+      "lastUpdateDate": "2019-08-24",
+      "shipServiceLevel": "G",
+      "earliestShipDate": "2019-08-24",
+      "latestShipDate": "2019-08-24",
+      "earliestDeliveryDate": "2019-08-24",
+      "latestDeliveryDate": "2019-08-24"
+    },
+    "customerId": "string",
+    "priority": "1",
+    "shipServiceLevel": "G",
+    "purchaseOrderNumber": "string",
+    "accessorials": [
+      {
+        "code": "Residential/RESIDNTL",
+        "accessorialType": "Pickup",
+        "parameters": [
+          {
+            "name": "accessType",
+            "value": "string"
+          }
+        ]
+      }
+    ],
+    "thirdPartyAccountNumber": "string",
+    "useAccountFrom": "C",
+    "brandId": "string"
+  }
+}

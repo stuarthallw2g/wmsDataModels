@@ -1,0 +1,34 @@
+{
+  "data": {
+    "status": "O",
+    "buildingId": "string",
+    "rmaNumber": "string",
+    "rmaDate": "string",
+    "uploadDate": "string",
+    "closedDate": "string",
+    "expectedDeliveryDate": "string",
+    "notes": "string",
+    "refId1": "string",
+    "refId2": "string",
+    "refId3": "string",
+    "refId4": "string",
+    "refId5": "string",
+    "lines": [
+      {
+        "lineNumber": "string",
+        "skuId": "string",
+        "skuDescription1": "string",
+        "quantity": 0,
+        "dispCode": "string",
+        "trackingNumber": "string",
+        "refId1": "string",
+        "refId2": "string",
+        "refId3": "string",
+        "refId4": "string",
+        "refId5": "string"
+      }
+    ],
+    "orderNumber": "string",
+    "returnReasonCode": "string"
+  }
+}

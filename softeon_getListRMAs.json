@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "rmaNumber": "string",
+      "name": "string",
+      "status": "string",
+      "building": {
+        "buildingId": "strin",
+        "shortName": "string",
+        "name": "string"
+      },
+      "timestamp": "string",
+      "customerOrderNumber": "string"
+    }
+  ]
+}

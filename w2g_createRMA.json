@@ -1,0 +1,52 @@
+{
+  "data": {
+    "identifiers": {
+      "organizationId": "string",
+      "rmaNumber": "string",
+      "outboundOrderNumber": "string",
+      "requestId": "string",
+      "batchId": "string"
+    },
+    "warehouseId": "string",
+    "shipmentDetail": {
+      "estimatedDeliveryDate": "2019-08-24",
+      "carrierId": "string",
+      "packageCount": 0,
+      "shippingSpeed": "1D",
+      "tracking": [
+        {
+          "trackingNumber": "string",
+          "shipmentType": "PARCEL"
+        }
+      ]
+    },
+    "shipFrom": {
+      "locality": "string",
+      "postalCode": "string",
+      "countryCode": "string",
+      "region": "string",
+      "addressLine1": "string",
+      "addressLine2": "string",
+      "addressLine3": "string"
+    },
+    "shipTo": {
+      "locality": "string",
+      "postalCode": "string",
+      "countryCode": "string",
+      "region": "string",
+      "addressLine1": "string",
+      "addressLine2": "string",
+      "addressLine3": "string"
+    },
+    "notes": "string",
+    "returnReasonCode": "string",
+    "lines": [
+      {
+        "lineNumber": "string",
+        "skuId": "string",
+        "description": "string",
+        "quantity": 0
+      }
+    ]
+  }
+}

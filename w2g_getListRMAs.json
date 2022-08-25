@@ -1,0 +1,27 @@
+{
+  "data": [
+    {
+      "rmaNumber": "string",
+      "status": "OPEN",
+      "warehouse": {
+        "id": "string",
+        "name": "string"
+      },
+      "returnCreatedDate": "2019-08-24T14:15:22Z",
+      "outboundOrderNumber": "string"
+    }
+  ],
+  "meta": {
+    "version": "string",
+    "serviceName": "string",
+    "pageNumber": 0,
+    "pageSize": 0,
+    "totalPageCount": 0,
+    "totalRecordCount": 0
+  },
+  "links": {
+    "self": "string",
+    "prev": "string",
+    "next": "string"
+  }
+}

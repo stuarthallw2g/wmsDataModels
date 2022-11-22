@@ -1,0 +1,93 @@
+{
+  "brand_id": "90217",
+  "purchase_order_id": "QY52KHA",
+  "purchase_order_type": "Normal",
+  "purchase_order_order_type": "Initial",
+  "location_id": "00021",
+  "vendor_id": "0000019984",
+  "vendor_name": "ABC Manufacturing Vendor",
+  "advance_ship_notice_flag": true,
+  "setup_date": "2021-03-10",
+  "due_date": "2021-06-02",
+  "ship_date": "2021-05-20",
+  "cancel_date": "2021-05-26",
+  "in_store_date": "2021-06-02",
+  "ticketer": "Vendor",
+  "origin_country_code": "US",
+  "destination_country_code": "US",
+  "destination_location_id": "00021",
+  "transfer_point": "HKHKG",
+  "cross_reference_purchase_order_id": "00244480",
+  "special_instructions": "Pack gently.",
+  "distribution_center_instruction_flags": {
+    "APV-OVG-IND": false,
+    "ATCH-FLSR-IND": false,
+    "ATCH-HANG-TAG-IND": false,
+    "FINL-INSP-PRB-IND": false,
+    "FULL-CRTN-PRK-IND": false,
+    "LT-ERLY-ACPT-IND": false,
+    "NEW-TCK-IND": false,
+    "NSTD-CRTN-CHK-IND": false,
+    "PGM-COORD-IND": false,
+    "PPK-DEF-PRB-IND": false,
+    "QA-ALT-IND": false,
+    "RESTKR-IND": false,
+    "RETCK-IND": false,
+    "RETCK-POS-PRB-IND": false,
+    "RTV-STAT-IND": false,
+    "SEC-IND": false,
+    "DO-NOT-PCK-IND": false,
+    "GOLDMARK-IND": false,
+    "GEN-DC-TCK-IND": false
+  },
+  "purchase_order_status": "Active",
+  "revision_number": "1",
+  "revision_date": "2021-03-10",
+  "comments": "Doing a great job!",
+  "purchase_order_details": [
+    {
+      "item_id": "3658010410001",
+      "prepack_flag": "Bulk",
+      "quantity": 10,
+      "first_cost": 12.55,
+      "first_cost_currency_code": "USD"
+    }
+  ],
+  "advance_ship_notices": [
+    {
+      "action": "Load Port Event",
+      "location_type": "DC",
+      "location_id": "00021",
+      "brand_id": "90217",
+      "purchase_order_id": "QY52KHA",
+      "purchase_order_type": "Normal",
+      "vendor_id": "0000019984",
+      "advance_ship_notice_status": "In Receiving",
+      "setup_date": "2021-03-10",
+      "due_date": "2021-06-02",
+      "ship_date": "2021-05-20",
+      "origin_country_code": "US",
+      "destination_country_code": "US",
+      "destination_location_id": "00021",
+      "customer_code": "938728393",
+      "bill_of_lading": "1599885",
+      "standard_carrier_alpha_code": "SWIF",
+      "trailer_id": "SWRU948492",
+      "seal": "072015",
+      "carton_count": 2000,
+      "unit_count": 10000,
+      "advance_ship_notice_details": [
+        {
+          "item_id": "3658010410001",
+          "prepack_flag": "Bulk",
+          "quantity": 10,
+          "carton_id": "00004306162138269977",
+          "carton_weight": 2.302,
+          "weight_unit_of_measure": "Pound",
+          "carton_volume": 3.64,
+          "volume_unit_of_measure": "Cubic Feet"
+        }
+      ]
+    }
+  ]
+}

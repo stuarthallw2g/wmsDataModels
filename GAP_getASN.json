@@ -1,0 +1,37 @@
+[
+  {
+    "action": "Load Port Event",
+    "location_type": "DC",
+    "location_id": "00021",
+    "brand_id": "90217",
+    "purchase_order_id": "QY52KHA",
+    "purchase_order_type": "Normal",
+    "vendor_id": "0000019984",
+    "advance_ship_notice_status": "In Receiving",
+    "setup_date": "2021-03-10",
+    "due_date": "2021-06-02",
+    "ship_date": "2021-05-20",
+    "origin_country_code": "US",
+    "destination_country_code": "US",
+    "destination_location_id": "00021",
+    "customer_code": "938728393",
+    "bill_of_lading": "1599885",
+    "standard_carrier_alpha_code": "SWIF",
+    "trailer_id": "SWRU948492",
+    "seal": "072015",
+    "carton_count": 2000,
+    "unit_count": 10000,
+    "advance_ship_notice_details": [
+      {
+        "item_id": "3658010410001",
+        "prepack_flag": "Bulk",
+        "quantity": 10,
+        "carton_id": "00004306162138269977",
+        "carton_weight": 2.302,
+        "weight_unit_of_measure": "Pound",
+        "carton_volume": 3.64,
+        "volume_unit_of_measure": "Cubic Feet"
+      }
+    ]
+  }
+]

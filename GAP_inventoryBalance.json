@@ -1,0 +1,25 @@
+[
+  {
+    "brand_id": "90001",
+    "count": 2000,
+    "number": 1,
+    "size": 5,
+    "reference": "01234567890123456789",
+    "balance_details": [
+      {
+        "balance_type": "Weekly/daily",
+        "transaction_date": "2021-05-06",
+        "transaction_time": "10:51:00",
+        "balance_control_number": "11234567890123456789",
+        "location_id": "00021",
+        "item_id": "3658010410001",
+        "prepack_flag": "Bulk",
+        "quantity": 10,
+        "pack_factor": 1,
+        "bucket": "Available",
+        "balance_total_lines": 67166,
+        "balance_line_number": 1
+      }
+    ]
+  }
+]

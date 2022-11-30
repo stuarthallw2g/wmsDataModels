@@ -1,0 +1,34 @@
+[
+  {
+    "brand_id": "90001",
+    "transaction_type": "Receipt Level",
+    "action": "Stocked Receipt",
+    "location_id": "00021",
+    "trailer_id": "SWRU948492",
+    "purchase_order_id": "QY52KHA",
+    "bill_of_lading": "PSDD034443",
+    "trailer_details": {
+      "trailer_arrival_date": "2021-05-06",
+      "trailer_arrival_time": "10:51:00",
+      "seal": "DB38322",
+      "expected_carton_count": 2000,
+      "advance_ship_notice_carton_id": "00004306162138269977",
+      "advance_ship_notice_receipt_control_number": 79583
+    },
+    "receipt_details": {
+      "carton_id": "00004306162138269977",
+      "receipt_control_number": "000079583",
+      "item_id": "3658010410001",
+      "prepack_flag": "Bulk",
+      "prepack_item_count": 1,
+      "quantity": 10,
+      "vendor_id": "0000309984",
+      "status_description": "Ok",
+      "purpose_description": "Original",
+      "unit_weight": 2.302,
+      "weight_unit_of_measure": "Pound",
+      "unit_volume": 1.5,
+      "volume_unit_of_measure": "Cubic Feet"
+    }
+  }
+]

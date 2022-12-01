@@ -1,0 +1,115 @@
+{
+  "data": {
+    "identifiers": {
+      "organizationId": "SMTEST",
+      "asnNumber": "string",
+      "requestId": "string",
+      "batchId": "string"
+    },
+    "uploadDate": "2019-08-24T14:15:22Z",
+    "closedDate": "2019-08-24T14:15:22Z",
+    "warehouseReceivedDate": "2019-08-24T14:15:22Z",
+    "warehouseId": "string",
+    "supplierId": "string",
+    "shipmentDetail": {
+      "shipmentDate": "2019-08-24",
+      "estimatedDeliveryDate": "2019-08-24",
+      "carrierId": "string",
+      "containerNumber": "string",
+      "sealId": "string",
+      "tracking": [
+        {
+          "trackingNumber": "string",
+          "shipmentType": "PARCEL"
+        }
+      ]
+    },
+    "shipFrom": {
+      "name": "string",
+      "address": {
+        "locality": "string",
+        "postalCode": "string",
+        "countryCode": "string",
+        "region": "string",
+        "addressLine1": "string",
+        "addressLine2": "string",
+        "addressLine3": "string"
+      },
+      "phoneNumber": "string",
+      "faxNumber": "string",
+      "emails": "string",
+      "attentionTo": "string"
+    },
+    "notes": "string",
+    "lines": [
+      {
+        "lineNumber": "string",
+        "poNumber": "string",
+        "palletId": "string",
+        "lot": {
+          "lotId": "string",
+          "expirationDate": "string"
+        },
+        "skuId": "string",
+        "description": "string",
+        "quantity": 0,
+        "poLineNumber": "string",
+        "upc": 430062164784
+      }
+    ],
+    "status": "OPEN",
+    "receiptLines": [
+      {
+        "warehouseId": "string",
+        "dispositionCode": "string",
+        "expectedQuantity": 0,
+        "holdCode": "string",
+        "lot": {
+          "lotId": "string",
+          "expirationDate": "string"
+        },
+        "lpn": {
+          "number": "string",
+          "status": "string"
+        },
+        "numberOfCases": 0,
+        "numberOfUnits": 0,
+        "numberOfPacks": 0,
+        "numberOfPallets": 0,
+        "receiptId": "string",
+        "receivedErrorCode": "string",
+        "receivedTimestamp": "2019-08-24T14:15:22Z",
+        "receivedUser": "string",
+        "sku": {
+          "skuId": "string",
+          "name": "string",
+          "shortDescription": "string",
+          "longDescription": "string"
+        },
+        "weight": {
+          "gross": "string",
+          "net": "string",
+          "unitOfMeasure": "string"
+        }
+      }
+    ],
+    "receiptType": "ASN",
+    "statusHistory": [
+      {
+        "timestamp": "2019-08-24T14:15:22Z",
+        "status": "OPEN",
+        "user": "string"
+      }
+    ],
+    "meta": {
+      "batchId": "string",
+      "createdAt": "2019-08-24T14:15:22Z",
+      "createdBySource": "string",
+      "createdByUser": "string",
+      "lastUpdatedSource": "string",
+      "lastUpdatedUser": "string",
+      "updatedAt": "2019-08-24T14:15:22Z",
+      "modelVersion": 0
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "data": {
+    "timestamp": "2019-08-24T14:15:22Z",
+    "organizationId": "SMTEST",
+    "sku": {
+      "skuId": "string",
+      "name": "string",
+      "shortDescription": "string",
+      "longDescription": "string"
+    },
+    "wms": "SOFTEON, COMMERCEVU, GAP, EXTENSIV",
+    "warehouse": {
+      "id": "string",
+      "name": "string"
+    },
+    "quantityOnHand": 0,
+    "availableToPromise": 0,
+    "potentialAllocation": 0,
+    "dueIn": 0,
+    "backOrdered": 0,
+    "onHold": 0,
+    "atDock": 0,
+    "inTransit": 0
+  }
+}

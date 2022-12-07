@@ -1,0 +1,23 @@
+{
+  "data": {
+    "id": "string",
+    "timestamp": "2019-08-24T14:15:22Z",
+    "organizationId": "SMTEST",
+    "skuId": "string",
+    "wms": "SOFTEON, COMMERCEVU, GAP, EXTENSIV",
+    "warehouse": {
+      "id": "string",
+      "name": "string"
+    },
+    "lot": {
+      "lotId": "string",
+      "expirationDate": "string"
+    },
+    "transactionType": "ADJUSTMENTS",
+    "transactionCode": "PALLET_SCRAP_TRANS_CODE",
+    "orderNumber": "string",
+    "quantityOnHandDelta": 0,
+    "fromLocation": "string",
+    "toLocation": "string"
+  }
+}

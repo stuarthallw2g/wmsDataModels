@@ -1,0 +1,10 @@
+[
+  {
+    "brand_id": "90001",
+    "transaction_date": "2021-05-06",
+    "transaction_time": "10:51:00",
+    "location_id": "00021",
+    "fulfillment_order_id": "GQP1W4T13",
+    "fulfillment_status": "Released"
+  }
+]

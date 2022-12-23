@@ -1,0 +1,199 @@
+{
+  "data": {
+    "wmsId": "SOFTEON, COMMERCEVU, EXTENSIV, 9a7f3b2e-58b2-4313-8e51-43ffc1015b67",
+    "organizationId": "string",
+    "outboundOrderNumber": "string",
+    "warehouseOrders": [
+      {
+        "identifiers": {
+          "organizationId": "SMTEST",
+          "outboundOrderNumber": "string",
+          "warehouseOrderNumber": "string"
+        },
+        "orderLines": [
+          {
+            "sku": {
+              "skuId": "string",
+              "name": "string",
+              "shortDescription": "string",
+              "longDescription": "string"
+            },
+            "quantity": 1,
+            "lineNumber": 0,
+            "externalLineNumber": "string",
+            "externalSkuId": "string",
+            "quantityUnits": "UNIT",
+            "status": {
+              "authQuantity": 0,
+              "cancelledReason": "BO_SPLIT_CANCELED",
+              "quantityMeasure": "UNIT",
+              "shippedQuantity": 0,
+              "allocationStatus": "FULLY_ALLOCATED",
+              "allocatedQuantity": 0,
+              "backOrderQuantity": 0,
+              "cancelledQuantity": 0,
+              "holdQuantity": 0
+            },
+            "unitPrice": {
+              "amount": "string",
+              "currencyCode": "string"
+            },
+            "lineTotal": {
+              "amount": "string",
+              "currencyCode": "string"
+            }
+          }
+        ],
+        "warehouse": {
+          "id": "string",
+          "name": "string"
+        },
+        "routing": {
+          "isFreight": false,
+          "isMerchantManaged": false,
+          "isInsuranceRequired": false,
+          "isSignatureRequired": false,
+          "shippingSpeed": "1D",
+          "carrier": "string",
+          "serviceLevel": "string",
+          "requestedWarehouseId": "string",
+          "notes": "string",
+          "deliveryInstructions": "string",
+          "accessorials": [
+            {
+              "code": "THRESHOLD",
+              "accessorialType": "PICKUP",
+              "parameters": [
+                null
+              ]
+            }
+          ]
+        },
+        "salesChannel": {
+          "name": "string",
+          "orderNumber": "string",
+          "purchaseDate": "string",
+          "lastUpdateDate": "string",
+          "earliestShipDate": "2019-08-24",
+          "latestShipDate": "2019-08-24",
+          "earliestDeliveryDate": "2019-08-24",
+          "latestDeliveryDate": "2019-08-24",
+          "shipServiceLevel": "string"
+        },
+        "sfp": {
+          "brandId": "string"
+        },
+        "status": "CREATED",
+        "shipmentPallets": [
+          {
+            "dropDate": "2019-08-24T14:15:22Z",
+            "shipDate": "2019-08-24T14:15:22Z",
+            "dimensions": {
+              "width": 0,
+              "height": 0,
+              "length": 0,
+              "weight": 0,
+              "measurementSystem": "string"
+            },
+            "warehouse": {
+              "id": "string",
+              "name": "string"
+            },
+            "carrier": {
+              "name": "string",
+              "scac": "string",
+              "proNumber": "string",
+              "billOfLadingNumber": "string"
+            }
+          }
+        ],
+        "shipmentPackages": [
+          {
+            "dropDate": "2019-08-24T14:15:22Z",
+            "shipDate": "2019-08-24T14:15:22Z",
+            "boxName": "string",
+            "dimensions": {
+              "width": 0,
+              "height": 0,
+              "length": 0,
+              "weight": 0,
+              "measurementSystem": "string",
+              "dimWeight": 0
+            },
+            "type": "string",
+            "serviceLevel": "string",
+            "carrier": {
+              "name": "string",
+              "scac": "string",
+              "proNumber": "string",
+              "billOfLadingNumber": "string"
+            },
+            "trackingNumber": "string",
+            "trackingStatus": "PICKUP",
+            "uccLabel": "string",
+            "lines": [
+              {
+                "serialNumbers": []
+              }
+            ],
+            "declaredValue": {
+              "amount": "string",
+              "currencyCode": "string"
+            },
+            "isInsured": true,
+            "isSignatureRequired": true,
+            "isFreight": true,
+            "charges": [
+              {}
+            ],
+            "giftMessage": "string"
+          }
+        ],
+        "orderTotal": {
+          "amount": "string",
+          "currencyCode": "string"
+        },
+        "payment": {
+          "taxAmount": {
+            "amount": "string",
+            "currencyCode": "string"
+          },
+          "shippingAmount": {
+            "amount": "string",
+            "currencyCode": "string"
+          },
+          "totalDiscount": {
+            "amount": "string",
+            "currencyCode": "string"
+          },
+          "totalAmount": {
+            "amount": "string",
+            "currencyCode": "string"
+          },
+          "paidDate": "2019-08-24"
+        },
+        "statusHistory": [
+          {
+            "timestamp": "2019-08-24T14:15:22Z",
+            "status": "CREATED",
+            "user": "string"
+          }
+        ],
+        "meta": {
+          "batchId": "string",
+          "createdAt": "2019-08-24T14:15:22Z",
+          "createdBySource": "string",
+          "createdByUser": "string",
+          "lastUpdatedSource": "string",
+          "lastUpdatedUser": "string",
+          "updatedAt": "2019-08-24T14:15:22Z",
+          "modelVersion": 0
+        },
+        "tags": [
+          "string"
+        ],
+        "giftMessage": "string"
+      }
+    ]
+  }
+}

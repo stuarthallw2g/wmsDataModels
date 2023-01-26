@@ -1,5 +1,5 @@
 
-            "ID": 24332,
+{           "ID": 24332,
             "InventorySiteID": 287,
             "InventorySiteDescription": "Ventory",
             "Code": "PO1000",
@@ -64,5 +64,6 @@
             "PageSize": 2,
             "SelectedPageIndex": 1,
             "PageCount": 1261,
-            "RecordCount": 2523,
+            "RecordCount": 2523
+}
 

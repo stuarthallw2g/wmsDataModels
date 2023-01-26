@@ -48,7 +48,7 @@
                 "detailReceiptCancelReason": null,
                 "palletType": null,
                 "customer": null,
-                "locationCode": "loc.2"
+                "locationCode": "loc.2",
                 "expireDate": "05.13.2021",
                 "lotBatchNo": "L002",
                 "freeAttr1": "Attr1",

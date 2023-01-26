@@ -1,6 +1,4 @@
-{
-    "Data": [
-        {
+
             "ID": 24332,
             "InventorySiteID": 287,
             "InventorySiteDescription": "Ventory",
@@ -67,5 +65,4 @@
             "SelectedPageIndex": 1,
             "PageCount": 1261,
             "RecordCount": 2523,
-        }
-       ]
+

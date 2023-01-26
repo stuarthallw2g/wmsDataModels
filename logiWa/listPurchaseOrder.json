@@ -10,7 +10,7 @@
             "Priority": null,
             "PurchaseOrderStatusDescription": "Partially Completed",
             "PurchaseOrderStatusID": 5,
-            "PurchaseOrderTypeDescription": Supplier,
+            "PurchaseOrderTypeDescription": "Supplier",
             "PurchaseOrderTypeID": 1,
             "DepositorDescription": "Desoffice366",
             "DepositorCode": null,

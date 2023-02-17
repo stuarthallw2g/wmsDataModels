@@ -1,0 +1,10 @@
+{
+   "ClientKey": "",
+   "LogiwaReceiptOrderId": 218229,
+   "LogiwaReceiptOrderNumber": "RO_YourCode",
+   "Client": "YourClient",
+   "Warehouse": "YourWarehouse",
+   "CurrentReceiptOrderStatus": "Completed",
+   "ReceiptOrderDate": "2022-04-30T06:52:13",
+   "ReceiptOrderStatusChangeDate": "2022-04-30T18:52:48.6847358+00:00"
+}

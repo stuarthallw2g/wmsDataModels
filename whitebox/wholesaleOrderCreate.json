@@ -1,0 +1,125 @@
+curl --location -g '{{API-URL}}/actions/private/order/create?appId={{YOUR-APP-ID}}&apiKey={{YOUR-API-KEY}}' \
+--header 'Content-Type: application/json' \
+--data-raw '{ 
+	"order": {
+		"createdDate": "2020-03-13T12:34:12",
+		"merchantOrderId": "RE-00001",
+		"currency": "USD",
+		"requestedShipService": "standard",
+		"salesChannel": "ricksemporium",
+        "orderDiscountAmount": 19.99,
+        "status": "SHIPPED",
+		"addresses": [
+			{
+				"isShipTo": true,
+				"isBillTo": true,
+				"isReturnTo": false,
+				"isShippedFrom": false,
+				"isThirdPartyBilling": false,
+				"address": {
+					"firstName": "Rick",
+					"lastName": "Sanchez",
+					"name": "Rick Sanchez",
+					"phone": "123-123-1234",
+                    "email": "ricksanchez@ricksemporium.com",
+					"company": "Rick'\''s Emporium of Interstellar Goods",
+					"street": "123 Emporium Rd",
+					"city": "PHOENIX",
+					"state": "AZ",
+					"zip": "85043",
+					"country": "US"
+				}
+			}
+		],
+		"orderItems": [
+			{
+				"merchantItemId": "1",
+				"skuId": 1,
+                "upc": "991PLUMBUS3892",
+                "sku": "PLUMBUS-001",
+				"qty": 100,
+				"unitPrice": 10
+			}
+		],
+        "shipment": {
+            "freightReadyDate": "2020-04-01",
+            "scheduledShipDate": "2020-04-05",
+            "earliestShipDate": "2020-05-10",
+            "thirdPartyBillingAccountNumber": "1234567",
+            "shippingOption": { "id": 1 },
+            "shipFromBuilding": { "id": 1 },
+            "ltlShipment": {
+					"requestedPickupDate": "2022-05-11",
+					"trackingType": "TEST",
+					"bolNumber": "12345",
+					"shippingWindowStartDate": "2022-05-11",
+					"shippingWindowEndDate": "2022-05-11",
+					"mustArriveByDate": "2022-05-11",
+					"requiresLiftGate": true,
+					"deliveryWindowStartDate": "2022-05-11"
+				}
+        },
+        "wholesale": {
+            "type": "LTL",
+            "requiresSscc": false,
+            "purchaseOrderNumber": "PO12345",
+            "clientOrderNumber": "CO12345",
+            "salesOrderNumber": "SO12345",
+            "notes": "I'\''m a little note.",
+            "retailer": { "id": 1 },
+            "files": [
+                {
+                    "url": "https://storage-domain.com/file-identifier",
+                    "name": "filename.ext",
+                    "kind": "PACKING_SLIP"
+                }
+            ],
+            "retailerDestinationAddress": {
+						"appointmentRequired": false,
+						"distributionCenterId": "TESTING",
+						"sunday": {
+							"endTime": "00:51",
+							"startTime": "01:51",
+							"required": true
+						},						
+					"monday": {
+							"endTime": "00:51",
+							"startTime": "01:51",
+							"required": true
+						},
+											
+					"tuesday": {
+							"endTime": "00:51",
+							"startTime": "01:51",
+							"required": true
+						},
+											
+					"wednesday": {
+							"endTime": "00:51",
+							"startTime": "01:51",
+							"required": true
+						},
+											
+					"thursday": {
+							"endTime": "00:51",
+							"startTime": "01:51",
+							"required": true
+						},
+											
+					"friday": {
+							"endTime": "00:51",
+							"startTime": "01:51",
+							"required": true
+						},
+											
+					"saturday": {
+							"endTime": "00:51",
+							"startTime": "01:51",
+							"required": true
+						}
+				}
+				}
+			}
+        }
+	}
+}'

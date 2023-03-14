@@ -1,0 +1,114 @@
+{
+  "shipments": [
+    {
+      "tracking": "394674370873",
+      "trackingUrl": "https://www.fedex.com/fedextrack/?trknbr=394674370873",
+      "totalItemFees": -3,
+      "carrier": "fedex",
+      "height": "8.00",
+      "shipByDate": "2023-02-16 05:00:00",
+      "merchantOrderId": "0022939343",
+      "shipstationShipmentCost": 0,
+      "manifestedOn": null,
+      "service": "fedex_ground",
+      "isShipengineTrackingSubscribed": 0,
+      "clientBoxInventoryId": 23,
+      "shippingZone": "8",
+      "containers": [
+        {
+          "packageCode": null,
+          "sscc": null,
+          "width": "12.00",
+          "id": 8854342,
+          "shipmentId": 674675238,
+          "length": "12.00",
+          "items": [
+            {
+              "baseUnits": [
+                {
+                  "baseUnitLot": "99",
+                  "baseUnitShort": "TEAF-KATICPNR",
+                  "baseUnitBarcode": "663199208833",
+                  "baseUnitQty": 12,
+                  "baseUnitId": 15885,
+                  "baseUnitExpirationDate": null
+                }
+              ],
+              "shipmentContainerId": 8854342,
+              "shipmentId": 674675238,
+              "id": 15688076,
+              "skuId": 4481413,
+              "lot": "99",
+              "sku": "20883",
+              "merchantItemId": "3",
+              "expDate": null,
+              "shipQty": 12,
+              "clientSku": null,
+              "wbFee": 0,
+              "wbfFee": -3,
+              "upc": "663199208833"
+            }
+          ],
+          "height": "8.00",
+          "weight": "17.69"
+        }
+      ],
+      "shipstationOrderId": 674675238,
+      "shippingCost": 17.14,
+      "modifiedOn": "2023-02-22 00:21:24",
+      "perShipmentFee": -1.99,
+      "totalWeight": "17.6875",
+      "latestTrackingEvent": {
+        "statusCode": "DE",
+        "statusDescription": "Delivered",
+        "carrierStatusDescription": "Delivered",
+        "carrierStatusCode": "DL",
+        "createdOn": "2023-02-22 00:21:24",
+        "occurredAt": "2023-02-21 23:31:09"
+      },
+      "width": "12.00",
+      "id": 674675238,
+      "manifestId": null,
+      "marketplaceId": 858,
+      "weight": "17.6875",
+      "isVoided": false,
+      "shipFromBuilding": {
+        "company": "Whitebox",
+        "lastName": "OZ3",
+        "buildingId": 8,
+        "city": "Curtis Bay",
+        "state": "MD",
+        "addressLocationNumber": null,
+        "firstName": "Whitebox",
+        "country": "US",
+        "name": "Whitebox OZ3",
+        "street": "1010 Swan Creek Dr.",
+        "zip": "21226",
+        "phone": "410-929-3946",
+        "locationCodeQualifier": null,
+        "streetOpt": "",
+        "streetOpt2": null
+      },
+      "status": "SHIPPED",
+      "isManifested": 0,
+      "peakSurcharge": "0.00",
+      "isLtl": 0,
+      "shipDate": "2023-02-15 23:17:54",
+      "shippingOption": {
+        "service": "FedEx Ground",
+        "carrier": {
+          "carrierCode": "fedex",
+          "name": "FedEx",
+          "id": 1
+        },
+        "type": "SMALL_PARCEL",
+        "id": 131,
+        "serviceCode": "fedex_ground"
+      },
+      "carrierAlphaCode": null,
+      "length": "12.00",
+      "orderId": 33494368
+    }
+  ],
+  "shipmentCount": 1
+}

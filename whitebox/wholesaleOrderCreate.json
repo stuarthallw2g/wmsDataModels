@@ -1,6 +1,4 @@
-curl --location -g '{{API-URL}}/actions/private/order/create?appId={{YOUR-APP-ID}}&apiKey={{YOUR-API-KEY}}' \
---header 'Content-Type: application/json' \
---data-raw '{ 
+{ 
 	"order": {
 		"createdDate": "2020-03-13T12:34:12",
 		"merchantOrderId": "RE-00001",
@@ -122,4 +120,4 @@ curl --location -g '{{API-URL}}/actions/private/order/create?appId={{YOUR-APP-ID
 			}
         }
 	}
-}'
+}

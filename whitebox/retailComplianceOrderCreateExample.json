@@ -1,0 +1,59 @@
+{
+  "order": {
+    "isGift": false,
+    "addresses": [
+      {
+        "isShipTo": true,
+        "isReturnTo": false,
+        "isBillTo": false,
+        "isThirdPartyBilling": false,
+        "address": {
+          "name": "NEIMAN MARCUS 7010-PNDC",
+          "zip": "75211",
+          "city": "DALLAS",
+          "state": "TX",
+          "street": "4123 PINNACLE POINT DRIVE",
+          "country": "US",
+          "company": ""
+        },
+        "isShippedFrom": false
+      }
+    ],
+    "requestedShipService": "SMALL_PARCEL",
+    "wholesale": {
+      "customerOrderNumber": "10100860904",
+      "clientUserId": 0,
+      "requiresSSCC": true,
+      "retailer": {
+        "id": 130
+      },
+      "salesOrderNumber": "10100860904#D38_1101",
+      "type": "Small_Parcel",
+      "purchaseOrderNumber": "10100860904"
+    },
+    "marketplaceId": 0,
+    "merchantOrderId": "10100860904#D38_1101",
+    "createdDate": "2023-03-02",
+    "currency": "USD",
+    "shipment": {
+      "shipFromBuilding": {
+        "id": 8
+      }
+    },
+    "orderItems": [
+      {
+        "skuId": "4487162",
+        "qty": 3,
+        "price": 14.85,
+        "merchantItemId": "6"
+      },
+      {
+        "skuId": "4487165",
+        "qty": 4,
+        "price": 9.9,
+        "merchantItemId": "8"
+      }
+    ],
+    "salesChannel": "EDI WB Channel"
+  }
+}

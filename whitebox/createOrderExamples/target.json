@@ -1,0 +1,50 @@
+{
+				"order": {
+					"addresses": [
+						{
+							"isShippedFrom": false,
+							"address": {
+								"zip": "12831",
+								"country": "US",
+								"city": "WILTON",
+								"street": "131 NORTH RD",
+								"name": "TARGET DC 0579",
+								"company": "",
+								"state": "NY"
+							},
+							"isShipTo": true,
+							"isThirdPartyBilling": false,
+							"isBillTo": false,
+							"isReturnTo": false
+						}
+					],
+					"createdDate": "2023-03-08",
+					"wholesale": {
+						"clientUserId": 0,
+						"retailer": {
+							"id": 9
+						},
+						"purchaseOrderNumber": "10000564762-0579",
+						"salesOrderNumber": "10000564762-0579",
+						"type": "SMALL_PARCEL"
+					},
+					"shipment": {
+						"shipFromBuilding": {
+							"id": 6
+						},
+						"earliestShipDate": "2023-03-05"
+					},
+					"currency": "USD",
+					"requestedShipService": "standard",
+					"merchantOrderId": "10000564762-0579",
+					"salesChannel": "Target Stores",
+					"orderItems": [
+						{
+							"price": 0,
+							"qty": 14,
+							"skuId": "4286296",
+							"merchantItemId": "1"
+						}
+					]
+				}
+			}

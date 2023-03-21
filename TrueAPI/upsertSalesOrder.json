@@ -1,0 +1,91 @@
+{
+  "data": {
+    "salesOrderNumber": "7eEGcJyxI",
+    "shipTo": {
+      "name": "<string>",
+      "address": {
+        "countryCode": "HF",
+        "postalCode": "<string>",
+        "region": "<string>",
+        "locality": "<string>",
+        "addressLine1": "<string>",
+        "addressLine3": "<string>",
+        "addressLine2": "<string>"
+      },
+      "email": "*-/$(//&\"%35y_gPy@r86xHq06E.sZ:{.|||^,`/@^)#-7z@JZQXC.dj-(:(&,{%,#'.={sBC_.8hIYK@ugf2qFu.YHqa\\*<]@]@",
+      "phoneNumber": "<string>",
+      "faxNumber": "<string>",
+      "attentionTo": "<string>",
+      "skipAddressValidation": "<boolean>"
+    },
+    "requestedOrderLines": [
+      {
+        "skuId": "<string>",
+        "quantity": "<integer>",
+        "customerLineNumber": "<string>",
+        "customerSku": "<string>",
+        "quantityMeasure": "EA",
+        "giftMessage": "<string>",
+        "notes": "<string>",
+        "lineType": "S",
+        "amount": "<number>"
+      },
+      {
+        "skuId": "<string>",
+        "quantity": "<integer>",
+        "customerLineNumber": "<string>",
+        "customerSku": "<string>",
+        "quantityMeasure": "EA",
+        "giftMessage": "<string>",
+        "notes": "<string>",
+        "lineType": "S",
+        "amount": "<number>"
+      }
+    ],
+    "purchaseOrderNumber": "<string>",
+    "customerId": "<string>",
+    "orderDropDate": "<date>",
+    "isInsuranceRequired": "false",
+    "isSignatureRequired": "false",
+    "orderAmount": "<number>",
+    "giftMessage": "<string>",
+    "billTo": {
+      "name": "<string>",
+      "address": {
+        "countryCode": "OF",
+        "postalCode": "<string>",
+        "region": "<string>",
+        "locality": "<string>",
+        "addressLine1": "<string>",
+        "addressLine3": "<string>",
+        "addressLine2": "<string>"
+      },
+      "email": ":/)+]`-]=E%S1@efFli.fO!^/@:\\;,+|/;\\CkEQkLbR@3vtj1Io0g8j.mQS|,\"*XGdCqLoLnUF@DIcHPN.zdn^^@;|~,@)-&qsWN",
+      "phoneNumber": "<string>",
+      "faxNumber": "<string>",
+      "attentionTo": "<string>",
+      "skipAddressValidation": "<boolean>"
+    },
+    "customerOrderType": "E",
+    "fillKillStrategyId": "3",
+    "deliveryInstructions2": "<string>",
+    "deliveryInstructions1": "<string>",
+    "shippingSpeed": "1D",
+    "carrierId": "<string>",
+    "isMerchantManaged": "<boolean>",
+    "notes": "<string>",
+    "requestedFacilityId": "<string>",
+    "orderCreatedDate": "<date>",
+    "priority": "LOWEST",
+    "accessorials": [
+      {
+        "code": "DLVAPT",
+        "accessorialType": "Origin"
+      },
+      {
+        "code": "WHTGLV",
+        "accessorialType": "Origin"
+      }
+    ]
+  }
+}

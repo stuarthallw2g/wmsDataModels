@@ -1,0 +1,70 @@
+{
+	"order": {
+		"createdDate": "2023-02-17",
+		"merchantOrderId": "RS40234110",
+		"currency": "USD",
+		"requestedShipService": "Standard",
+		"salesChannel": "Chewy.com",
+		"addresses": [
+			{
+				"isShipTo": true,
+				"isBillTo": false,
+				"isReturnTo": false,
+				"isShippedFrom": false,
+				"isThirdPartyBilling": false,
+				"address": {
+					"name": "CHEWY_INC_RENO",
+					"company": "",
+					"street": "8001 N Virginia St,",
+					"city": "Reno",
+					"state": "NV",
+					"zip": "89506",
+					"country": "US"
+				}
+			},
+			{
+				"isShipTo": false,
+				"isBillTo": false,
+				"isReturnTo": false,
+				"isShippedFrom": true,
+				"isThirdPartyBilling": false,
+				"address": {
+					"name": "Wild Earth c/o Whitebox",
+					"street": "3049 E Washburn Rd",
+					"city": "North Las Vegas",
+					"state": "NV",
+					"zip": "89081",
+					"country": "US"
+				}
+			}
+		],
+		"wholesale": {
+			"retailer": {
+				"id": 59
+			},
+			"purchaseOrderNumber": "RS40234110",
+			"salesOrderNumber": "RS40234110",
+			"clientUserId": 0,
+			"type": "LTL",
+			"requiresSSCC": true
+		},
+		"shipment": {
+			"freightReadyDate": "2023-02-17",
+			"shipFromBuilding": {
+				"id": 10
+			},
+			"ltlShipment": {
+				"shippingWindowStartDate": "2023-02-17",
+				"shippingWindowEndDate": "2023-02-17"
+			}
+		},
+		"orderItems": [
+			{
+				"merchantItemId": "1",
+				"skuId": "4452500",
+				"qty": 50,
+				"price": 67.5
+			}
+		]
+	}
+}

@@ -1,0 +1,59 @@
+{
+				"order": {
+					"marketplaceId": 0,
+					"addresses": [
+						{
+							"isShippedFrom": false,
+							"address": {
+								"zip": "29651-9999",
+								"country": "US",
+								"city": "Greer",
+								"street": "1028 Hawk Ridge Court",
+								"name": "Jean Cornett Hervey",
+								"company": "",
+								"state": "SC"
+							},
+							"isShipTo": true,
+							"isThirdPartyBilling": false,
+							"isBillTo": false,
+							"isReturnTo": false
+						}
+					],
+					"createdDate": "2023-03-15",
+					"wholesale": {
+						"clientUserId": 0,
+						"requiresSSCC": false,
+						"purchaseOrderNumber": "693619500237189",
+						"files": [
+							{
+								"kind": "PACKING_SLIP",
+								"name": "149131.pdf",
+								"url": "https://connectpointz.blob.core.windows.net/packslip/D38/WHITEBOX/149131.pdf"
+							}
+						],
+						"salesOrderNumber": "693619500237189",
+						"customerOrderNumber": "6936195002"
+					},
+					"shipment": {
+						"shipFromBuilding": {
+							"id": 8
+						},
+						"shippingOption": {
+							"id": 448
+						}
+					},
+					"isGift": false,
+					"currency": "USD",
+					"requestedShipService": "Standard",
+					"merchantOrderId": "SO817535",
+					"salesChannel": "QVC DropShip TF",
+					"orderItems": [
+						{
+							"price": 12.6,
+							"qty": 1,
+							"skuId": "4488269",
+							"merchantItemId": "1"
+						}
+					]
+				}
+			}

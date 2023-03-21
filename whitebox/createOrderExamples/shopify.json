@@ -1,0 +1,58 @@
+{
+				"order": {
+					"marketplaceId": 0,
+					"addresses": [
+						{
+							"isShippedFrom": false,
+							"address": {
+								"zip": "L1G 2L4",
+								"country": "CA",
+								"phone": "(647) 228-2416",
+								"city": "Oshawa",
+								"street": "110 Hillcroft Street",
+								"name": "Tracy Koetsier",
+								"company": "",
+								"state": "ON",
+								"email": "tkoetsier@live.com"
+							},
+							"isShipTo": true,
+							"isThirdPartyBilling": false,
+							"isBillTo": false,
+							"isReturnTo": false
+						}
+					],
+					"createdDate": "2023-03-15",
+					"wholesale": {
+						"clientUserId": 0,
+						"requiresSSCC": false,
+						"purchaseOrderNumber": "SO817542",
+						"files": [
+							{
+								"kind": "PACKING_SLIP",
+								"name": "149144.PDF",
+								"url": "https://connectpointz.blob.core.windows.net/packslip/D38/WHITEBOX/149144.PDF"
+							}
+						],
+						"salesOrderNumber": "SO817542_20230315_0801",
+						"customerOrderNumber": "SO817542"
+					},
+					"shipment": {
+						"shipFromBuilding": {
+							"id": 8
+						}
+					},
+					"isGift": false,
+					"currency": "USD",
+					"requestedShipService": "Standard",
+					"merchantOrderId": "SO817542_20230315_0801",
+					"salesChannel": "Shopify TF",
+					"orderItems": [
+						{
+							"price": 49.5,
+							"qty": 3,
+							"skuId": "4481423",
+							"merchantItemId": "1"
+						}
+					]
+				}
+			}

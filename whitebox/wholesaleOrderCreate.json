@@ -63,7 +63,7 @@
             "purchaseOrderNumber": "PO12345",
             "clientOrderNumber": "CO12345",
             "salesOrderNumber": "SO12345",
-            "notes": "I'\''m a little note.",
+            "notes": "I'm a little note.",
             "retailer": { "id": 1 },
             "files": [
                 {

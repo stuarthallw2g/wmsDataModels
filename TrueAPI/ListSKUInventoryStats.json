@@ -1,0 +1,47 @@
+{
+  "data": [
+    {
+      "upc": "<string>",
+      "atp": "<number>",
+      "qoh": "<number>",
+      "potentialAllocation": "<number>",
+      "dueInQty": "<number>",
+      "backOrderQty": "<number>",
+      "holdQty": "<number>",
+      "sku": {
+        "skuId": "<string>",
+        "name": "<string>",
+        "description1": "<string>",
+        "description2": "<string>"
+      }
+    },
+    {
+      "upc": "<string>",
+      "atp": "<number>",
+      "qoh": "<number>",
+      "potentialAllocation": "<number>",
+      "dueInQty": "<number>",
+      "backOrderQty": "<number>",
+      "holdQty": "<number>",
+      "sku": {
+        "skuId": "<string>",
+        "name": "<string>",
+        "description1": "<string>",
+        "description2": "<string>"
+      }
+    }
+  ],
+  "meta": {
+    "version": "<string>",
+    "serviceName": "<string>",
+    "currentPage": "<integer>",
+    "pageCount": "<integer>",
+    "totalRecordCount": "<integer>",
+    "pageSize": "<integer>"
+  },
+  "links": {
+    "self": "<string>",
+    "prev": "<string>",
+    "next": "<string>"
+  }
+}

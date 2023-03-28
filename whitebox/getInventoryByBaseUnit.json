@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "type": "sku-location",
+      "id": 3899,
+      "attributes": {
+        "locationId": 434,
+        "baseUnitId": 1713,
+        "poId": null,
+        "expDate": null,
+        "qty": 665,
+        "clientId": 563,
+        "short": "SUN-ESORI65",
+        "name": "Product Name",
+        "container": "Can",
+        "dateAdded": "2019-02-26 22:04:45",
+        "createdBy": 490,
+        "weight": null,
+        "longest": null,
+        "middle": null,
+        "shortest": null,
+        "barcode": "",
+        "barcodeType": null,
+        "squishable": 0,
+        "palletQty": null,
+        "cost": null
+      },
+      "relationships": {
+        "base-unit": {
+          "data": {
+            "id": 1713,
+            "type": "base-unit"
+          }
+        },
+        "location": {
+          "data": {
+            "id": 434,
+            "type": "location"
+          }
+        }
+      }
+    }
+  ]
+}

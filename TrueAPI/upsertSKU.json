@@ -1,0 +1,101 @@
+{
+  "data": {
+    "skuId": "iO",
+    "name": "<string>",
+    "isActive": "<boolean>",
+    "trackingMethod": "DF",
+    "skuRefId": "<string>",
+    "description1": "<string>",
+    "description2": "<string>",
+    "upc": "<string>",
+    "dateOnLPN": "E",
+    "ean": "069003570",
+    "gtin": "9",
+    "epc": "55667074",
+    "unitCost": "<number>",
+    "unitCostCurrencyCode": "<string>",
+    "layersPerPallet": "<number>",
+    "casesPerPallet": "<number>",
+    "casesPerLayer": "<number>",
+    "defaultSellingUnit": "UNIT",
+    "scheduleBCode": "<string>",
+    "hsDescription": "<string>",
+    "hsCode": "<string>",
+    "countryOfOrigin": "<string>",
+    "isPackageInsuranceRequired": "<boolean>",
+    "isOversized": "<boolean>",
+    "packingPreference": "SR",
+    "skuGroup7": "<string>",
+    "receiptTolerancePercent": "<number>",
+    "receiptToleranceDays": "<integer>",
+    "shelfLifeDays": "<integer>",
+    "expiryWarningDays": "<integer>",
+    "isLotTracked": false,
+    "commodityCode": "4777738",
+    "isReturnable": "<boolean>",
+    "isSignatureRequired": "<boolean>",
+    "serialNumberTracking": "<boolean>",
+    "trackPoint": "N",
+    "trackQuestionLevel": "UNIT",
+    "trackOnReturn": "<boolean>",
+    "icc": {
+      "ground": "205",
+      "ocean": "306",
+      "air": "102",
+      "rail": "212"
+    },
+    "hazmat": {
+      "unNumber": "<string>",
+      "groundClass": "122",
+      "oceanClass": "222",
+      "airClass": "322",
+      "railClass": "422",
+      "packingGroup": "33231",
+      "labelCode": "<string>"
+    },
+    "palletDimensions": {
+      "height": "<string>",
+      "width": "<string>",
+      "depth": "<string>",
+      "weight": "<string>",
+      "upc": "<string>"
+    },
+    "caseDimensions": {
+      "height": "<string>",
+      "width": "<string>",
+      "depth": "<string>",
+      "weight": "<string>",
+      "eachesPer": "<string>",
+      "upc": "<string>"
+    },
+    "packDimensions": {
+      "height": "<string>",
+      "width": "<string>",
+      "depth": "<string>",
+      "weight": "<string>",
+      "eachesPer": "<string>",
+      "upc": "<string>"
+    },
+    "innerPackDimensions": {
+      "height": "<string>",
+      "width": "<string>",
+      "depth": "<string>",
+      "weight": "<string>",
+      "eachesPer": "<string>",
+      "upc": "<string>"
+    },
+    "eachDimensions": {
+      "height": "<string>",
+      "width": "<string>",
+      "depth": "<string>",
+      "weight": "<string>",
+      "eachesPer": "<string>",
+      "upc": "<string>"
+    },
+    "type": "C",
+    "unitPrice": "<integer>",
+    "unitPriceCurrencyCode": "<string>",
+    "coldStorage": "REFRIGERATED",
+    "restockLevel": "<integer>"
+  }
+}

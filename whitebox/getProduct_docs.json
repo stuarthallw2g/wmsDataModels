@@ -1,0 +1,213 @@
+{
+  "data": {
+    "type": "product",
+    "id": 21884,
+    "attributes": {
+      "sku": "SKU-015",
+      "asin": "B0XXXXXXX",
+      "clientSku": "SKU-015",
+      "alertNote": "",
+      "fnskuUs": "X00XXXXXX",
+      "name": "Your product name here",
+      "amazonPrice": 39.99,
+      "volusionPrice": 0,
+      "ebayPrice": 0,
+      "showOnClientDashboard": 1,
+      "marketplaceAmazon": 1,
+      "marketplaceEbay": 1,
+      "marketplaceShopify": 1,
+      "palletQty": 132,
+      "increment": 132,
+      "rop": 75,
+      "moq": 1,
+      "inboundToWb": null,
+      "wbReadyToShip": "133",
+      "atWb": null,
+      "inStorage": null,
+      "inRacking": null,
+      "lastInvRequest": "2018-10-04 14:03:50",
+      "requestedQty": 0,
+      "salesVelocity": "16.1640",
+      "isParent": 0,
+      "discontinuedDate": null,
+      "packageWeight": 9.375,
+      "reservedQty": 95,
+      "reservedTransit": 36,
+      "reservedProcessing": 25,
+      "fulfillableQty": 97,
+      "amazonInbound": 0,
+      "shopifyId": "471446781989",
+      "ebayId": "",
+      "parentSku": "SKU-100P",
+      "ebcStatus": "NOT STARTED",
+      "sasStatus": "NOT ENROLLED",
+      "packageLength": 7.75,
+      "packageWidth": 7.25,
+      "packageHeight": 10.569999694824219,
+      "marketplaceId": 229,
+      "salesRank": 9423,
+      "lifetimeGross": "186883.28",
+      "lifetimeUnitsSold": "5122",
+      "firstDayInStock": "2018-01-23",
+      "unitsSoldT30": "522",
+      "unitsSoldT90": "1623",
+      "salesVelocityRange": null,
+      "averagePerUnitRevenue": "18.457591",
+      "averageConversionForRange": null,
+      "images": [
+        "https://market.mp3car.com/images/skus/XXXX.jpg",
+        "https://market.mp3car.com/images/skus/XXXXX.jpg"
+      ],
+      "kittingRelationships": [
+        {
+          "id": 27363,
+          "child": 21886,
+          "parent": 21884,
+          "qty": 0.25
+        },
+        {
+          "id": 27364,
+          "child": 21887,
+          "parent": 21884,
+          "qty": 0.25
+        },
+        {
+          "id": 27365,
+          "child": 21888,
+          "parent": 21884,
+          "qty": 0.25
+        },
+        {
+          "id": 27366,
+          "child": 21889,
+          "parent": 21884,
+          "qty": 0.25
+        }
+      ],
+      "starRating": "3.80",
+      "numberOfReviews": 6
+    },
+    "relationships": {
+      "purchase-order-item": {
+        "data": [
+          {
+            "type": "purchase-order-item",
+            "id": 27375
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 27590
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 27630
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 27659
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 28306
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 28473
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 26193
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 26032
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 25531
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 25713
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 25375
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 25445
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 25313
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 25164
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 25255
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 24701
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 24741
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 23397
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 23616
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 23646
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 22838
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 22115
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 21729
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 21772
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 21785
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 21076
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 21137
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 21157
+          },
+          {
+            "type": "purchase-order-item",
+            "id": 20563
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+      "relationships": {
+        "client": {
+          "data": {
+            "type": "client",
+            "id": 1989
+          }
+        },
+        "base-unit-item": {
+          "data": [
+            {
+              "type": "base-unit-item",
+              "id": 9455
+            }
+          ]
+        },
+        "product-bullet": {
+          "data": []
+        }
+      },
+      "type": "product",
+      "attributes": {
+        "upc": "851949004631",
+        "includeInWholesale": 1,
+        "shopifyId": null,
+        "combinedMaster": 0,
+        "packageWeight": 15.91,
+        "moq": 102,
+        "walmartPrice": 0,
+        "packageLength": 11.3,
+        "showOnClientDashboard": 1,
+        "wbReadyToShip": null,
+        "sku": "RORG-EIBA18-012-P",
+        "plainDesc": "",
+        "palletQty": 0,
+        "amazonPrice": 28.99,
+        "atOz": null,
+        "increment": 102,
+        "ean": "",
+        "discontinuedDate": "2021-05-06 00:00:00",
+        "fulfillableQty": 0,
+        "ebayPrice": 0,
+        "productCategoryId": null,
+        "requestedQty": 0,
+        "bullets": "",
+        "nickname": null,
+        "atWb": null,
+        "marketplaceEbay": 1,
+        "isFulfilledByWhitebox": 1,
+        "fbaPrepChargeConfiguration": "UNIT",
+        "clientSku": "RORG-EIBA18-012-P",
+        "reservedQty": null,
+        "packageWidth": 8.5,
+        "marketplaceShopify": 1,
+        "marketplaceAmazon": 1,
+        "inStorage": null,
+        "fnskuUs": "X002D1KZTB",
+        "reservedProcessing": null,
+        "asin": "B07G7HWH5M",
+        "clientId": 1989,
+        "name": "Roar Organic Electrolyte Infusions - USDA Organic - Blueberry Acai - with Antioxidants, B Vitamins, Low-Calorie, Low-Sugar, Low-Carb, Coconut Water Infused Beverage 18 Fl Oz (Pack of 12)",
+        "sasStatus": "NOT ENROLLED",
+        "volusionPrice": 0,
+        "inboundToWb": null,
+        "alertNote": null,
+        "ebayId": "",
+        "amazonInbound": null,
+        "clientSellerCentralStock": 0,
+        "inRacking": null,
+        "parentSku": null,
+        "marketplaceId": null,
+        "packageHeight": 7.94,
+        "rop": 70,
+        "images": [],
+        "reservedTransit": null,
+        "isParent": 0,
+        "walmartPid": null,
+        "ebcStatus": "NOT STARTED",
+        "salesRank": null,
+        "brand": "Roar",
+        "wbAmazonSellerCentralStock": 0
+      },
+      "id": 4266279
+    }

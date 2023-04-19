@@ -1,0 +1,281 @@
+{
+  "data": [
+    {
+      "containers": [
+        {
+          "lines": [
+            {
+              "sku": {
+                "description": "<string>",
+                "name": "<string>",
+                "skuId": "<string>"
+              },
+              "quantity": "<integer>",
+              "quantityMeasure": "<string>",
+              "lineNumer": "<integer>",
+              "customerLineNumber": "<string>",
+              "serialNumbers": [
+                "<string>",
+                "<string>"
+              ],
+              "lot": {
+                "lotId": "<string>",
+                "expiration": "<dateTime>"
+              }
+            },
+            {
+              "sku": {
+                "description": "<string>",
+                "name": "<string>",
+                "skuId": "<string>"
+              },
+              "quantity": "<integer>",
+              "quantityMeasure": "<string>",
+              "lineNumer": "<integer>",
+              "customerLineNumber": "<string>",
+              "serialNumbers": [
+                "<string>",
+                "<string>"
+              ],
+              "lot": {
+                "lotId": "<string>",
+                "expiration": "<dateTime>"
+              }
+            }
+          ],
+          "uccLabel": "<string>",
+          "trackingNumber": "<string>",
+          "trackingStatus": "MANIFEST_PICKUP",
+          "trackingStatusDescription": "<string>",
+          "containedPackages": "<integer>",
+          "type": "<string>",
+          "dimensions": {
+            "width": "<number>",
+            "height": "<number>",
+            "length": "<number>",
+            "weight": "<number>",
+            "measurementSystem": "<string>",
+            "dimWeight": "<number>"
+          },
+          "deliveryEstimate": "<date>",
+          "weight": "<string>"
+        },
+        {
+          "lines": [
+            {
+              "sku": {
+                "description": "<string>",
+                "name": "<string>",
+                "skuId": "<string>"
+              },
+              "quantity": "<integer>",
+              "quantityMeasure": "<string>",
+              "lineNumer": "<integer>",
+              "customerLineNumber": "<string>",
+              "serialNumbers": [
+                "<string>",
+                "<string>"
+              ],
+              "lot": {
+                "lotId": "<string>",
+                "expiration": "<dateTime>"
+              }
+            },
+            {
+              "sku": {
+                "description": "<string>",
+                "name": "<string>",
+                "skuId": "<string>"
+              },
+              "quantity": "<integer>",
+              "quantityMeasure": "<string>",
+              "lineNumer": "<integer>",
+              "customerLineNumber": "<string>",
+              "serialNumbers": [
+                "<string>",
+                "<string>"
+              ],
+              "lot": {
+                "lotId": "<string>",
+                "expiration": "<dateTime>"
+              }
+            }
+          ],
+          "uccLabel": "<string>",
+          "trackingNumber": "<string>",
+          "trackingStatus": "EXCEPTION",
+          "trackingStatusDescription": "<string>",
+          "containedPackages": "<integer>",
+          "type": "<string>",
+          "dimensions": {
+            "width": "<number>",
+            "height": "<number>",
+            "length": "<number>",
+            "weight": "<number>",
+            "measurementSystem": "<string>",
+            "dimWeight": "<number>"
+          },
+          "deliveryEstimate": "<date>",
+          "weight": "<string>"
+        }
+      ],
+      "shipDate": "<dateTime>",
+      "carrier": {
+        "name": "<string>",
+        "billOfLadingNumber": "<string>",
+        "proNumber": "<string>"
+      },
+      "facility": {
+        "name": "<string>",
+        "upsAccountNumber": "<string>",
+        "shortName": "<string>",
+        "facilityId": "<string>"
+      }
+    },
+    {
+      "containers": [
+        {
+          "lines": [
+            {
+              "sku": {
+                "description": "<string>",
+                "name": "<string>",
+                "skuId": "<string>"
+              },
+              "quantity": "<integer>",
+              "quantityMeasure": "<string>",
+              "lineNumer": "<integer>",
+              "customerLineNumber": "<string>",
+              "serialNumbers": [
+                "<string>",
+                "<string>"
+              ],
+              "lot": {
+                "lotId": "<string>",
+                "expiration": "<dateTime>"
+              }
+            },
+            {
+              "sku": {
+                "description": "<string>",
+                "name": "<string>",
+                "skuId": "<string>"
+              },
+              "quantity": "<integer>",
+              "quantityMeasure": "<string>",
+              "lineNumer": "<integer>",
+              "customerLineNumber": "<string>",
+              "serialNumbers": [
+                "<string>",
+                "<string>"
+              ],
+              "lot": {
+                "lotId": "<string>",
+                "expiration": "<dateTime>"
+              }
+            }
+          ],
+          "uccLabel": "<string>",
+          "trackingNumber": "<string>",
+          "trackingStatus": "RETURNED_TO_SENDER",
+          "trackingStatusDescription": "<string>",
+          "containedPackages": "<integer>",
+          "type": "<string>",
+          "dimensions": {
+            "width": "<number>",
+            "height": "<number>",
+            "length": "<number>",
+            "weight": "<number>",
+            "measurementSystem": "<string>",
+            "dimWeight": "<number>"
+          },
+          "deliveryEstimate": "<date>",
+          "weight": "<string>"
+        },
+        {
+          "lines": [
+            {
+              "sku": {
+                "description": "<string>",
+                "name": "<string>",
+                "skuId": "<string>"
+              },
+              "quantity": "<integer>",
+              "quantityMeasure": "<string>",
+              "lineNumer": "<integer>",
+              "customerLineNumber": "<string>",
+              "serialNumbers": [
+                "<string>",
+                "<string>"
+              ],
+              "lot": {
+                "lotId": "<string>",
+                "expiration": "<dateTime>"
+              }
+            },
+            {
+              "sku": {
+                "description": "<string>",
+                "name": "<string>",
+                "skuId": "<string>"
+              },
+              "quantity": "<integer>",
+              "quantityMeasure": "<string>",
+              "lineNumer": "<integer>",
+              "customerLineNumber": "<string>",
+              "serialNumbers": [
+                "<string>",
+                "<string>"
+              ],
+              "lot": {
+                "lotId": "<string>",
+                "expiration": "<dateTime>"
+              }
+            }
+          ],
+          "uccLabel": "<string>",
+          "trackingNumber": "<string>",
+          "trackingStatus": "OUT_FOR_DELIVERY",
+          "trackingStatusDescription": "<string>",
+          "containedPackages": "<integer>",
+          "type": "<string>",
+          "dimensions": {
+            "width": "<number>",
+            "height": "<number>",
+            "length": "<number>",
+            "weight": "<number>",
+            "measurementSystem": "<string>",
+            "dimWeight": "<number>"
+          },
+          "deliveryEstimate": "<date>",
+          "weight": "<string>"
+        }
+      ],
+      "shipDate": "<dateTime>",
+      "carrier": {
+        "name": "<string>",
+        "billOfLadingNumber": "<string>",
+        "proNumber": "<string>"
+      },
+      "facility": {
+        "name": "<string>",
+        "upsAccountNumber": "<string>",
+        "shortName": "<string>",
+        "facilityId": "<string>"
+      }
+    }
+  ],
+  "meta": {
+    "version": "<string>",
+    "serviceName": "<string>",
+    "currentPage": "<integer>",
+    "pageCount": "<integer>",
+    "totalRecordCount": "<integer>",
+    "pageSize": "<integer>"
+  },
+  "links": {
+    "self": "<string>",
+    "prev": "<string>",
+    "next": "<string>"
+  }
+}

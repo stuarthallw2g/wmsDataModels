@@ -1,0 +1,163 @@
+{
+  "data": {
+    "salesOrderNumber": "J",
+    "customerOrderType": "ST",
+    "shipTo": {
+      "name": "<string>",
+      "address": {
+        "countryCode": "JJ",
+        "postalCode": "<string>",
+        "region": "<string>",
+        "locality": "<string>",
+        "addressLine1": "<string>",
+        "addressLine3": "<string>",
+        "addressLine2": "<string>"
+      },
+      "email": "-;;(?~|M@U5kuM.JrEk*.);!;[,#f1KAsmm@F1Zb1.DWjw&=?@{,[ %%&\"^,/=tW1R_E8b@4s0k9..qq[`=?]-#|!\\",
+      "phoneNumber": "<string>",
+      "faxNumber": "<string>",
+      "attentionTo": "<string>",
+      "skipAddressValidation": "<boolean>"
+    },
+    "requestedOrderLines": [
+      {
+        "skuId": "<string>",
+        "quantity": "<integer>",
+        "customerLineNumber": "82515110",
+        "customerSku": "<string>",
+        "quantityMeasure": "EA",
+        "giftMessage": "<string>",
+        "notes": "<string>",
+        "lineType": "S",
+        "amount": "<number>"
+      },
+      {
+        "skuId": "<string>",
+        "quantity": "<integer>",
+        "customerLineNumber": "811527902",
+        "customerSku": "<string>",
+        "quantityMeasure": "EA",
+        "giftMessage": "<string>",
+        "notes": "<string>",
+        "lineType": "S",
+        "amount": "<number>"
+      }
+    ],
+    "purchaseOrderNumber": "<string>",
+    "customerId": "<string>",
+    "orderDropDate": "<date>",
+    "isInsuranceRequired": "<boolean>",
+    "isSignatureRequired": "<boolean>",
+    "orderAmount": "<number>",
+    "giftMessage": "<string>",
+    "billTo": {
+      "name": "<string>",
+      "address": {
+        "countryCode": "FT",
+        "postalCode": "<string>",
+        "region": "<string>",
+        "locality": "<string>",
+        "addressLine1": "<string>",
+        "addressLine3": "<string>",
+        "addressLine2": "<string>"
+      },
+      "email": "(*?`  .Beg@o.SBtQ;]*`|%-%,@:&>~,<\\6C0CzlXldh@hXSLNAprHA6.Jc,=+$;\"1@KDiXvPM9kYn.dznd$%|> ?,{,*+ !#`]_",
+      "phoneNumber": "<string>",
+      "faxNumber": "<string>",
+      "attentionTo": "<string>",
+      "skipAddressValidation": "<boolean>"
+    },
+    "fillKillStrategyId": "1",
+    "deliveryInstructions2": "<string>",
+    "deliveryInstructions1": "<string>",
+    "shippingSpeed": "1D",
+    "carrierId": "<string>",
+    "isMerchantManaged": "<boolean>",
+    "notes": "<string>",
+    "requestedFacilityId": "<string>",
+    "orderCreatedDate": "<date>",
+    "state": {
+      "salesOrderNumber": "<string>",
+      "totalContainers": 0,
+      "statusHistory": [
+        {
+          "status": "PACKED",
+          "timestamp": "<dateTime>",
+          "user": "<string>"
+        },
+        {
+          "status": "WAVE_INITIATED",
+          "timestamp": "<dateTime>",
+          "user": "<string>"
+        }
+      ],
+      "distributionOrderLines": [
+        {
+          "sku": {
+            "skuId": "<string>",
+            "name": "<string>",
+            "description": "<string>"
+          },
+          "lineNumber": "<integer>",
+          "quantity": "<integer>",
+          "status": "BACK_ORDERED",
+          "allocatedQuantity": "<integer>",
+          "backOrderQuantity": "<integer>",
+          "cancelledQuantity": "<number>",
+          "shippedQuantity": "<number>",
+          "authQuantity": "<number>",
+          "allocationStatus": "<string>",
+          "cancelledReason": "<string>",
+          "customerLineNumber": "<string>",
+          "quantityMeasure": "<string>",
+          "facility": {
+            "id": "<string>",
+            "name": "<string>"
+          }
+        },
+        {
+          "sku": {
+            "skuId": "<string>",
+            "name": "<string>",
+            "description": "<string>"
+          },
+          "lineNumber": "<integer>",
+          "quantity": "<integer>",
+          "status": "BACK_ORDERED",
+          "allocatedQuantity": "<integer>",
+          "backOrderQuantity": "<integer>",
+          "cancelledQuantity": "<number>",
+          "shippedQuantity": "<number>",
+          "authQuantity": "<number>",
+          "allocationStatus": "<string>",
+          "cancelledReason": "<string>",
+          "customerLineNumber": "<string>",
+          "quantityMeasure": "<string>",
+          "facility": {
+            "id": "<string>",
+            "name": "<string>"
+          }
+        }
+      ]
+    },
+    "priority": "HIGHEST",
+    "accessorials": [
+      {
+        "code": "LTDACCESS",
+        "accessorialType": "Delivery"
+      },
+      {
+        "code": "INSIDSRV",
+        "accessorialType": "Delivery"
+      }
+    ]
+  },
+  "meta": {
+    "version": "<string>",
+    "serviceName": "<string>",
+    "currentPage": "<integer>",
+    "pageCount": "<integer>",
+    "totalRecordCount": "<integer>",
+    "pageSize": "<integer>"
+  }
+}

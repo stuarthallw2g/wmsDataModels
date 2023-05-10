@@ -1,4 +1,4 @@
-"data": [
+"data": 
     {
       "relationships": {
         "base-case": {
@@ -55,4 +55,4 @@
         "clientCustomField2": null
       },
       "id": 14969
-    }]
+    }

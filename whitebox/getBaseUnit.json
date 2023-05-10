@@ -1,0 +1,58 @@
+"data": [
+    {
+      "relationships": {
+        "base-case": {
+          "data": {
+            "type": "base-case",
+            "id": 14583
+          }
+        },
+        "client": {
+          "data": {
+            "type": "client",
+            "id": 2211
+          }
+        }
+      },
+      "type": "base-unit",
+      "attributes": {
+        "requiresExpDate": 1,
+        "lotCodePattern": "\\d{8}$",
+        "clientShort": "13316",
+        "baseCaseId": 14583,
+        "requiresLotCode": 1,
+        "clientId": 2211,
+        "palletQty": 0,
+        "nmfc": null,
+        "isGlass": 0,
+        "name": "Tea Forte 13316 Presentation Box, Lotus",
+        "cost": "5.51",
+        "kitId": null,
+        "barcodeType": "UPC",
+        "squishable": 0,
+        "serialNumberPattern": null,
+        "createdBy": 2202,
+        "isHazmat": 0,
+        "isSiocRequired": null,
+        "discontinueDate": null,
+        "isSupply": 0,
+        "shortest": "3.25",
+        "isSerializable": 0,
+        "barcode": "663199133166",
+        "short": "TEAF-PBXLT",
+        "containsAlcohol": 0,
+        "container": "Box",
+        "barcode2": "",
+        "clientCustomField1": null,
+        "weight": "0.49",
+        "countryOfOrigin": "CN",
+        "hsCode": "902400000",
+        "freightClass": null,
+        "longest": "8.50",
+        "middle": "4.00",
+        "dateAdded": "2022-07-12 18:14:09",
+        "brand": "Tea Forte",
+        "clientCustomField2": null
+      },
+      "id": 14969
+    }]
